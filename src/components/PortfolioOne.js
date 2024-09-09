@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowLeft, FaArrowRight, FaPlus } from "react-icons/fa";
+import { FaArrowLeft, FaArrowRight} from "react-icons/fa";
 import Slider from "react-slick";
 
 const PortfolioOne = () => {

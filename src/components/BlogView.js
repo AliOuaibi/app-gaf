@@ -30,7 +30,7 @@ const BlogView = () => {
                   <ul className='blog-meta'>
                     <li>
                       <FaUserAlt /> By{" "}
-                      <a className='ms-1' href='#'>
+                      <a className='ms-1' href='/'>
                         {" "}
                         Admin
                       </a>
@@ -70,7 +70,7 @@ const BlogView = () => {
                   <ul className='blog-meta'>
                     <li>
                       <FaUserAlt /> By{" "}
-                      <a className='ms-1' href='#'>
+                      <a className='ms-1' href='/'>
                         {" "}
                         Admin
                       </a>
@@ -107,7 +107,7 @@ const BlogView = () => {
                   <ul className='blog-meta'>
                     <li>
                       <FaUserAlt /> By{" "}
-                      <a className='ms-1' href='#'>
+                      <a className='ms-1' href='/'>
                         {" "}
                         Admin
                       </a>
@@ -147,7 +147,7 @@ const BlogView = () => {
                   <ul className='blog-meta'>
                     <li>
                       <FaUserAlt /> By{" "}
-                      <a className='ms-1' href='#'>
+                      <a className='ms-1' href='/'>
                         {" "}
                         Admin
                       </a>
@@ -281,25 +281,25 @@ const BlogView = () => {
                   </p>
                   <ul className='social-media'>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         <FaFacebookF />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         <FaTwitter />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         <FaBehance />
                       </a>
@@ -319,7 +319,7 @@ const BlogView = () => {
                         </div>
                         <div className='details'>
                           <h6>
-                            <a href='#'>Learning Transport Is Not Difficult</a>
+                            <a href='/'>Learning Transport Is Not Difficult</a>
                           </h6>
                           <p>
                             <FaCalendarAlt />
@@ -335,7 +335,7 @@ const BlogView = () => {
                         </div>
                         <div className='details'>
                           <h6>
-                            <a href='#'>Learning Transport Is Not Difficult</a>
+                            <a href='/'>Learning Transport Is Not Difficult</a>
                           </h6>
                           <p>
                             <FaCalendarAlt />
@@ -351,7 +351,7 @@ const BlogView = () => {
                         </div>
                         <div className='details'>
                           <h6>
-                            <a href='#'>Learning Transport Is Not Difficult</a>
+                            <a href='/'>Learning Transport Is Not Difficult</a>
                           </h6>
                           <p>
                             <FaCalendarAlt />
@@ -368,13 +368,13 @@ const BlogView = () => {
                     <span className='dot' />
                   </h4>
                   <div className='tagcloud'>
-                    <a href='#'>BUSINESS</a>
-                    <a href='#'>MARKETING</a>
-                    <a href='#'>DESIGN</a>
-                    <a href='#'>WEB DEVELOPMENTS</a>
-                    <a href='#'>BRANDING</a>
-                    <a href='#'>UI/UX</a>
-                    <a href='#'>APPS</a>
+                    <a href='/'>BUSINESS</a>
+                    <a href='/'>MARKETING</a>
+                    <a href='/'>DESIGN</a>
+                    <a href='/'>WEB DEVELOPMENTS</a>
+                    <a href='/'>BRANDING</a>
+                    <a href='/'>UI/UX</a>
+                    <a href='/'>APPS</a>
                   </div>
                 </div>
               </div>

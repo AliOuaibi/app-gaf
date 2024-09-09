@@ -11,7 +11,6 @@ const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
 const PartnerOne = React.lazy(() => import("../components/PartnerOne"));
 const SkillOne = React.lazy(() => import("../components/SkillOne"));
 const TeamOne = React.lazy(() => import("../components/TeamOne"));
-const TestimonialTwo = React.lazy(() => import("../components/TestimonialTwo"));
 const VideoAreaOne = React.lazy(() => import("../components/VideoAreaOne"));
 const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 const About = () => {
@@ -49,9 +48,6 @@ const About = () => {
           <div className='pd-bottom-80'>
             <TeamOne />
           </div>
-
-          {/* Testimonial Two */}
-          <TestimonialTwo />
 
           {/* Partner One */}
           <PartnerOne />

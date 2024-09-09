@@ -51,7 +51,7 @@ const PricingOne = () => {
                       <FaCheckCircle /> Any time 24/7 hour support
                     </li>
                   </ul>
-                  <a className='btn btn-base' href='#'>
+                  <a className='btn btn-base' href='/'>
                     CHOOSE PLAN
                   </a>
                 </div>
@@ -88,7 +88,7 @@ const PricingOne = () => {
                       <FaCheckCircle /> Any time 24/7 hour support
                     </li>
                   </ul>
-                  <a className='btn btn-base' href='#'>
+                  <a className='btn btn-base' href='/'>
                     CHOOSE PLAN
                   </a>
                 </div>
@@ -125,7 +125,7 @@ const PricingOne = () => {
                       <FaCheckCircle /> Any time 24/7 hour support
                     </li>
                   </ul>
-                  <a className='btn btn-base' href='#'>
+                  <a className='btn btn-base' href='/'>
                     CHOOSE PLAN
                   </a>
                 </div>

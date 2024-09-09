@@ -22,7 +22,7 @@ const ShipmentOne = () => {
                   another as it.
                 </p>
                 <div className='btn-wrapper animated fadeInUpBig text-left mt-3'>
-                  <a href='#' className='boxed-btn blank-02'>
+                  <a href='/' className='boxed-btn blank-02'>
                     Contact us
                   </a>
                 </div>

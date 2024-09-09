@@ -55,7 +55,7 @@ const SupportBarOne = () => {
                 {/* support right start */}
                 <ul>
                   <li className='fare-rate-responsive'>
-                    <a href='#'>
+                    <a href='/'>
                       <FaBuffer />
                       Get a Fare Rate
                     </a>
@@ -63,13 +63,13 @@ const SupportBarOne = () => {
                   <li>
                     <ul className='social-link'>
                       <li>
-                        <a href='#' className='facebook'>
+                        <a href='/' className='facebook'>
                           {" "}
                           <FaFacebookF />
                         </a>
                       </li>
                       <li>
-                        <a href='#' className='twitter'>
+                        <a href='/' className='twitter'>
                           <FaTwitter />
                         </a>
                       </li>
@@ -82,7 +82,7 @@ const SupportBarOne = () => {
                         </a>
                       </li>
                       <li>
-                        <a href='#' className='instagram'>
+                        <a href='/' className='instagram'>
                           <FaInstagram />
                         </a>
                       </li>

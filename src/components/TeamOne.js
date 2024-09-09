@@ -89,22 +89,22 @@ const TeamOne = () => {
                           <FaPlus />
                           <ul className='social-area'>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaFacebookF />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaTwitter />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaWhatsapp />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaLinkedinIn />
                               </a>
                             </li>
@@ -125,22 +125,22 @@ const TeamOne = () => {
                           <FaPlus />
                           <ul className='social-area'>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaFacebookF />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaTwitter />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaWhatsapp />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaLinkedinIn />
                               </a>
                             </li>
@@ -161,22 +161,22 @@ const TeamOne = () => {
                           <FaPlus />
                           <ul className='social-area'>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaFacebookF />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaTwitter />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaWhatsapp />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaLinkedinIn />
                               </a>
                             </li>
@@ -197,22 +197,22 @@ const TeamOne = () => {
                           <FaPlus />
                           <ul className='social-area'>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaFacebookF />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaTwitter />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaWhatsapp />
                               </a>
                             </li>
                             <li>
-                              <a href='#'>
+                              <a href='/'>
                                 <FaLinkedinIn />
                               </a>
                             </li>

@@ -38,7 +38,7 @@ const BlogDetailsInner = () => {
                   <ul className='blog-meta'>
                     <li>
                       <FaUserAlt /> By{" "}
-                      <a className='ms-1' href='#'>
+                      <a className='ms-1' href='/'>
                         {" "}
                         Admin
                       </a>
@@ -109,30 +109,30 @@ const BlogDetailsInner = () => {
                       <div className='col-lg-6'>
                         <strong>Tags:</strong>
                         <div className='tags d-inline-block'>
-                          <a href='#'>TRANSPORT</a>
-                          <a href='#'>BUSINESS</a>
+                          <a href='/'>TRANSPORT</a>
+                          <a href='/'>BUSINESS</a>
                         </div>
                       </div>
                       <div className='col-lg-6 text-md-end'>
                         <strong>Share:</strong>
                         <ul className='social-media gap-2'>
                           <li className='ms-1'>
-                            <a href='#'>
+                            <a href='/'>
                               <FaFacebookF />
                             </a>
                           </li>
                           <li className='ms-1'>
-                            <a href='#'>
+                            <a href='/'>
                               <FaTwitter />
                             </a>
                           </li>
                           <li className='ms-1'>
-                            <a href='#'>
+                            <a href='/'>
                               <FaInstagram />
                             </a>
                           </li>
                           <li className='ms-1'>
-                            <a href='#'>
+                            <a href='/'>
                               <FaLinkedinIn />
                             </a>
                           </li>
@@ -152,7 +152,7 @@ const BlogDetailsInner = () => {
               <div className='blog-comment'>
                 <h4>COMMENTS(3)</h4>
                 <div className='media'>
-                  <a href='#'>
+                  <a href='/'>
                     <img src='assets/img/blog/blog-comment.png' alt='comment' />
                   </a>
                   <div className='media-body'>
@@ -163,14 +163,14 @@ const BlogDetailsInner = () => {
                       interface. Monotonectally cultivate mission-critical
                       content before interoperable.
                     </p>
-                    <a href='#'>
+                    <a href='/'>
                       <FaReply />
                       REPLY
                     </a>
                   </div>
                 </div>
                 <div className='media media-nesting'>
-                  <a href='#'>
+                  <a href='/'>
                     <img
                       src='assets/img/blog/blog-comment-2.png'
                       alt='comment'
@@ -184,14 +184,14 @@ const BlogDetailsInner = () => {
                       interface. Monotonectally cultivate mission-critical
                       content before interoperable.
                     </p>
-                    <a href='#'>
+                    <a href='/'>
                       <FaReply />
                       REPLY
                     </a>
                   </div>
                 </div>
                 <div className='media mb-0 border-0 pb-0'>
-                  <a href='#'>
+                  <a href='/'>
                     <img
                       src='assets/img/blog/blog-comment-3.png'
                       alt='comment'
@@ -205,7 +205,7 @@ const BlogDetailsInner = () => {
                       interface. Monotonectally cultivate mission-critical
                       content before interoperable.
                     </p>
-                    <a href='#'>
+                    <a href='/'>
                       <FaReply />
                       REPLY
                     </a>
@@ -252,7 +252,7 @@ const BlogDetailsInner = () => {
                     </div>
                   </div>
                   <div className='col-12'>
-                    <a className='btn btn-base' href='#'>
+                    <a className='btn btn-base' href='/'>
                       {" "}
                       SEND MESSAGE
                     </a>
@@ -339,25 +339,25 @@ const BlogDetailsInner = () => {
                   </p>
                   <ul className='social-media'>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         <FaFacebookF />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         <FaTwitter />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         <FaLinkedinIn />
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         <FaBehance />
                       </a>
@@ -377,7 +377,7 @@ const BlogDetailsInner = () => {
                         </div>
                         <div className='details'>
                           <h6>
-                            <a href='#'>Learning Transport Is Not Difficult</a>
+                            <a href='/'>Learning Transport Is Not Difficult</a>
                           </h6>
                           <p>
                             <FaCalendarAlt />
@@ -393,7 +393,7 @@ const BlogDetailsInner = () => {
                         </div>
                         <div className='details'>
                           <h6>
-                            <a href='#'>Learning Transport Is Not Difficult</a>
+                            <a href='/'>Learning Transport Is Not Difficult</a>
                           </h6>
                           <p>
                             <FaCalendarAlt />
@@ -409,7 +409,7 @@ const BlogDetailsInner = () => {
                         </div>
                         <div className='details'>
                           <h6>
-                            <a href='#'>Learning Transport Is Not Difficult</a>
+                            <a href='/'>Learning Transport Is Not Difficult</a>
                           </h6>
                           <p>
                             <FaCalendarAlt />
@@ -426,13 +426,13 @@ const BlogDetailsInner = () => {
                     <span className='dot' />
                   </h4>
                   <div className='tagcloud'>
-                    <a href='#'>BUSINESS</a>
-                    <a href='#'>MARKETING</a>
-                    <a href='#'>DESIGN</a>
-                    <a href='#'>WEB DEVELOPMENTS</a>
-                    <a href='#'>BRANDING</a>
-                    <a href='#'>UI/UX</a>
-                    <a href='#'>APPS</a>
+                    <a href='/'>BUSINESS</a>
+                    <a href='/'>MARKETING</a>
+                    <a href='/'>DESIGN</a>
+                    <a href='/'>WEB DEVELOPMENTS</a>
+                    <a href='/'>BRANDING</a>
+                    <a href='/'>UI/UX</a>
+                    <a href='/'>APPS</a>
                   </div>
                 </div>
               </div>

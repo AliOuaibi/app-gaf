@@ -70,17 +70,17 @@ const FooterOne = () => {
                   </p>
                   <ul className='social-media style-border'>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaFacebookF/>
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaInstagram/>
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         <FaLinkedinIn/>
                       </a>
                     </li>

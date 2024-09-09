@@ -23,7 +23,7 @@ const TransportServiceArea = () => {
                   alt='transport-service images'
                 />
                 <div className='transport-service-item-hover'>
-                  <a href='#'>
+                  <a href='/'>
                     <div className='transport-service-link'>
                       <span className='fa fa-eye' />
                     </div>
@@ -41,7 +41,7 @@ const TransportServiceArea = () => {
                   County suffer twenty or marked no moment in.
                 </p>
                 <div className='btn-wrapper animated fadeInUpBig text-left'>
-                  <a href='#' className='boxed-btn blank'>
+                  <a href='/' className='boxed-btn blank'>
                     Contact for transport
                   </a>
                 </div>
@@ -57,7 +57,7 @@ const TransportServiceArea = () => {
                   alt='transport-service images'
                 />
                 <div className='transport-service-item-hover'>
-                  <a href='#'>
+                  <a href='/'>
                     <div className='transport-service-link'>
                       <span className='fa fa-eye' />
                     </div>
@@ -75,7 +75,7 @@ const TransportServiceArea = () => {
                   County suffer twenty or marked no moment in.
                 </p>
                 <div className='btn-wrapper animated fadeInUpBig text-left'>
-                  <a href='#' className='boxed-btn blank'>
+                  <a href='/' className='boxed-btn blank'>
                     Contact for transport
                   </a>
                 </div>
@@ -91,7 +91,7 @@ const TransportServiceArea = () => {
                   alt='transport-service images'
                 />
                 <div className='transport-service-item-hover'>
-                  <a href='#'>
+                  <a href='/'>
                     <div className='transport-service-link'>
                       <span className='fa fa-eye' />
                     </div>
@@ -109,7 +109,7 @@ const TransportServiceArea = () => {
                   County suffer twenty or marked no moment in.
                 </p>
                 <div className='btn-wrapper animated fadeInUpBig text-left'>
-                  <a href='#' className='boxed-btn blank'>
+                  <a href='/' className='boxed-btn blank'>
                     Contact for transport
                   </a>
                 </div>
@@ -119,7 +119,7 @@ const TransportServiceArea = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-2'>
               <div className='btn-wrapper animated fadeInUpBig text-center'>
-                <a href='#' className='boxed-btn btn-bounce'>
+                <a href='/' className='boxed-btn btn-bounce'>
                   View All
                 </a>
               </div>

@@ -71,17 +71,17 @@ const NavbarOne = () => {
               <div className='col-lg-2 col-md-3'>
                 <ul className='topbar-right social-area text-md-end text-center'>
                   <li>
-                    <Link to='#'>
+                    <Link to='/'>
                       <FaFacebookF aria-hidden='true'/>
                     </Link>
                   </li>
                   <li>
-                    <Link to='#'>
+                    <Link to='/'>
                       <FaLinkedinIn aria-hidden='true'/>
                     </Link>
                   </li>
                   <li>
-                    <Link to='#'>
+                    <Link to='/'>
                       <FaInstagram aria-hidden='true'/>
                     </Link>
                   </li>

@@ -165,13 +165,13 @@ const ServiceDetailsInner = () => {
                   </h4>
                   <ul className='download-items'>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         <FaRegFilePdf /> DOWNLOAD PDF
                       </a>
                     </li>
                     <li>
-                      <a href='#'>
+                      <a href='/'>
                         {" "}
                         <FaRegFileAlt /> DOWNLOAD DOC{" "}
                       </a>

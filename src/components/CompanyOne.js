@@ -52,7 +52,7 @@ const CompanyOne = () => {
               <div className='company-carousel'>
                 <Slider {...settings}>
                   <div className='single-carousel-item'>
-                    <a href='#'>
+                    <a href='/'>
                       <img
                         src='assets/img/partner/01.png'
                         className='img-fluid'
@@ -61,7 +61,7 @@ const CompanyOne = () => {
                     </a>
                   </div>
                   <div className='single-carousel-item'>
-                    <a href='#'>
+                    <a href='/'>
                       <img
                         src='assets/img/partner/02.png'
                         className='img-fluid'
@@ -70,7 +70,7 @@ const CompanyOne = () => {
                     </a>
                   </div>
                   <div className='single-carousel-item'>
-                    <a href='#'>
+                    <a href='/'>
                       <img
                         src='assets/img/partner/04.png'
                         className='img-fluid'
@@ -79,7 +79,7 @@ const CompanyOne = () => {
                     </a>
                   </div>
                   <div className='single-carousel-item'>
-                    <a href='#'>
+                    <a href='/'>
                       <img
                         src='assets/img/partner/03.png'
                         className='img-fluid'
@@ -88,7 +88,7 @@ const CompanyOne = () => {
                     </a>
                   </div>
                   <div className='single-carousel-item'>
-                    <a href='#'>
+                    <a href='/'>
                       <img
                         src='assets/img/partner/05.png'
                         className='img-fluid'
@@ -97,7 +97,7 @@ const CompanyOne = () => {
                     </a>
                   </div>
                   <div className='single-carousel-item'>
-                    <a href='#'>
+                    <a href='/'>
                       <img
                         src='assets/img/partner/06.png'
                         className='img-fluid'
@@ -106,7 +106,7 @@ const CompanyOne = () => {
                     </a>
                   </div>
                   <div className='single-carousel-item'>
-                    <a href='#'>
+                    <a href='/'>
                       <img
                         src='assets/img/partner/05.png'
                         className='img-fluid'
@@ -115,7 +115,7 @@ const CompanyOne = () => {
                     </a>
                   </div>
                   <div className='single-carousel-item'>
-                    <a href='#'>
+                    <a href='/'>
                       <img
                         src='assets/img/partner/06.png'
                         className='img-fluid'

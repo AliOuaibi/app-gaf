@@ -35,7 +35,7 @@ const BlogOne = () => {
                   <ul className='blog-meta'>
                     <li>
                       <FaUserAlt /> By{" "}
-                      <a className='ms-1' href='#'>
+                      <a className='ms-1' href='/'>
                         {" "}
                         Admin
                       </a>
@@ -64,7 +64,7 @@ const BlogOne = () => {
                   <ul className='blog-meta'>
                     <li>
                       <FaUserAlt /> By{" "}
-                      <a className='ms-1' href='#'>
+                      <a className='ms-1' href='/'>
                         {" "}
                         Admin
                       </a>
@@ -93,7 +93,7 @@ const BlogOne = () => {
                   <ul className='blog-meta'>
                     <li>
                       <FaUserAlt /> By{" "}
-                      <a className='ms-1' href='#'>
+                      <a className='ms-1' href='/'>
                         {" "}
                         Admin
                       </a>

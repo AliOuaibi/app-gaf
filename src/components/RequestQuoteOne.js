@@ -208,7 +208,7 @@ const RequestQuoteOne = () => {
                         </div>
                       </li>
                     </ul>
-                    <a className='btn btn-base w-100' href='#'>
+                    <a className='btn btn-base w-100' href='/'>
                       REQUEST A QUOTE
                     </a>
                   </div>
@@ -398,7 +398,7 @@ const RequestQuoteOne = () => {
                         </div>
                       </li>
                     </ul>
-                    <a className='btn btn-base w-100' href='#'>
+                    <a className='btn btn-base w-100' href='/'>
                       REQUEST A QUOTE
                     </a>
                   </div>
