@@ -2,7 +2,7 @@
   "name": "app-gaf",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AliOuaibi.github.io/gap",
+  "homepage": "https://AliOuaibi.github.io/app-gaf",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@ramonak/react-progress-bar": "^5.0.3",
