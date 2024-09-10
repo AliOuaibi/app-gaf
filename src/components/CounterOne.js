@@ -6,7 +6,7 @@ const CounterOne = () => {
   return (
     <>
       {/*fact-area start*/}
-      <div className='container' style={{marginTop: "70px"}}>
+      <div className='container mg-top-160' style={{marginBottom: "100px"}}>
         <div
           className='fact-counter-area'
           style={{ background: "url(assets/img/fact/bg.png)" }}

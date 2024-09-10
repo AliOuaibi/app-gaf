@@ -50,7 +50,6 @@ const PartnerOne = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-7'>
               <div className='section-title text-center'>
-                <h4 className='subtitle'>NOS CLIENTS</h4>
                 <h2 className='title'>ON ROULE POUR EUX</h2>
                 <p className='content'>
                   Découvrez comment nous mettons notre expertise au service de nos clients en offrant des

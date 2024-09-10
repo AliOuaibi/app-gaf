@@ -5,7 +5,7 @@ const AboutOne = () => {
   return (
     <>
       {/* about area start */}
-      <div className='about-area pd-bottom-120'>
+      <div className='about-area pd-bottom-120 mg-top-120'>
         <div className='container'>
           <div className='about-area-inner'>
             <div className='row'>
@@ -46,14 +46,14 @@ const AboutOne = () => {
               <div className='col-lg-6 align-self-center'>
                 <div className='about-inner-wrap'>
                   <div className='section-title mb-0'>
-                    <h4 className='subtitle'>À PROPOS</h4>
                     <h2 className='title'>
-                      BIENVENUE CHEZ GAF, VOTRE PARTENAIRE DE TRANSPORT
+                      VOTRE PARTENAIRE DE TRANSPORT
                     </h2>
                     <p className='content left-line'>
-                      GROUPE A FRET, une entreprise de transport innovente et determinée. Notre dossier d'appel d'offres
-                      vise à démontrer notre engagement à devenir votre partenaire priviligié pour des solutions de transport
-                      en semi-remorques fiables et adaptées.
+                      Bienvenue chez GROUPE A FRET, également connu sous le nom de GAF, une entreprise de transport
+                      innovante et déterminée. Notre dossier d'appel d'offres vise à démontrer notre engagement à
+                      devenir votre partenaire priviligié pour des solutions de transport en semi-remorques fiables et
+                      adaptées.
                     </p>
                     <div className='row'>
                       <div className='col-xl-6 col-lg-12 col-md-6'>

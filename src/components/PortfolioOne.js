@@ -1,19 +1,11 @@
 import React from "react";
-import { FaArrowLeft, FaArrowRight} from "react-icons/fa";
 import Slider from "react-slick";
 
 const PortfolioOne = () => {
-  function SampleNextArrow(props) {
-    const { className, onClick } = props;
-    return <FaArrowLeft className={className} onClick={onClick} />;
-  }
-  function SamplePrevArrow(props) {
-    const { className, onClick } = props;
-    return <FaArrowRight className={className} onClick={onClick} />;
-  }
+
   const settings = {
     dots: false,
-    arrows: true,
+    arrows: false,
     speed: 1000,
     initialSlide: 1,
     autoplaySpeed: 5000,
@@ -21,8 +13,6 @@ const PortfolioOne = () => {
     centerMode: true,
     centerPadding: "0px",
     slidesToShow: 3,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
     responsive: [
       {
         breakpoint: 1024,
@@ -53,19 +43,20 @@ const PortfolioOne = () => {
   return (
     <>
       {/* portfolio area start */}
-      <div
-        className='portfolio-area pd-top-115'
-        style={{ background: "url(assets/img/portfolio/bg.png)" }}
-      >
-        <div className='container'>
-          <div className='row'>
-            <div className='col-lg-8'>
-              <div className='section-title style-white'>
-                <h4 className='subtitle style-2'>ÉCO RESPONSABLES</h4>
-                <h2 className='title'>L'AVENIR DU TRANSPORT : EN ROUTE POUR L'ENVIRONNEMENT</h2>
+      <div className='portfolio-area pd-top-60'>
+        <div className='container' >
+          <div className='mx-auto text-center' style={{marginBottom: '60px'}}>
+            <div>
+              <div>
+                <h2 className='title' style={{color: '#47474a'}}>FAIRE MIEUX POUR DEMAIN,<br/> DÈS AUJOURD’HUI.</h2>
+                <div style={{borderBottom: "10px solid #78B742", margin: "20px auto", width: "20%"}}></div>
+                <h5 style={{color: '#78B742'}}>Que diriez-vous de concilier transport et mise au vert ?</h5>
                 <p className='content'>
-                  Optez pour l'avenir avec nos poids lourds écologiques :
-                  une solution innovante pour un transport durable et performant.
+                  Soucieux de notre impact environnemental, nous nous sommes engagés dans la voie de
+                  la transition écologique avec une double ambition : agir sans attendre et répondre à vos
+                  préoccupations grandissantes sur le sujet. En pratique, cela nous conduit à réaliser chaque année
+                  notre bilan carbone et à fixer des objectifs chiffrés pour réduire durablement notre consommation
+                  de carburant et les émissions de gaz à effet de serre.
                 </p>
               </div>
             </div>

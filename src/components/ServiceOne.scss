@@ -1,0 +1,25 @@
+.service-gaf {
+  display: flex;
+  padding-bottom: 60px;
+  .service-block-1{
+    margin: 0 20px;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .service-gaf {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 968px) {
+  .service-gaf {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .service-block-2{
+
+  }
+}
