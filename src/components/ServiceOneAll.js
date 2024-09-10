@@ -11,12 +11,13 @@ const ServiceOneAll = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-7'>
               <div className='section-title text-center'>
-                <h4 className='subtitle'>SERVICES</h4>
-                <h2 className='title'>OUR SERVICE FOR YOU</h2>
+                <h4 className='subtitle'>NOS FORMATIONS</h4>
+                <h2 className='title'>VOS FORMATIONS DÉDIÉES AUX MÉTIERS DU TRANSPORTS</h2>
                 <p>
-                  Quickly optimize cooperative models for long-term high-impact
-                  ROI. Dynamically drive innovative e-commerce and distributed
-                  paradigms.
+                  Formez vous au métiers du transport avec un accompagnement de A à Z avec des professionnelles,
+                  à travers des stages et des sessions de formation qualifiantes
+                  La plupart de nos offres sont éligibles au Compte Personnel de Formation (CPF).
+                  Pour les personnes inscrites au pôle emploi, différentes aides existent afin de financer votre formation.
                 </p>
               </div>
             </div>
