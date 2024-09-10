@@ -1,0 +1,56 @@
+/* Container for all cards */
+.custom-cards-container {
+  padding: 130px 0;
+  position: relative;
+}
+
+/* Flexbox wrapper for the cards */
+.custom-cards-wrapper {
+  display: flex;
+  justify-content: center; /* Centre les cartes */
+  gap: 0px; /* Élimine tout espace entre les cartes */
+  flex-wrap: wrap; /* Permet de gérer les petits écrans en les empilant */
+  margin: 0; /* Supprime tout margin autour du wrapper */
+}
+
+/* Each card container */
+.custom-card-container {
+  position: relative;
+  margin: 0; /* Enlève tout espace entre les cartes */
+  padding: 0; /* Élimine tout padding interne */
+}
+
+/* Each card */
+.custom-card {
+  position: relative;
+  padding: 0; /* Supprime le padding pour que les cartes se rapprochent */
+  text-align: center;
+}
+
+/* Responsive image */
+.custom-responsive-image {
+  width: 100%; /* L'image occupe tout l'espace disponible dans son conteneur */
+  height: auto; /* Garde les proportions */
+  max-width: 550px; /* Limite la taille maximale de l'image */
+  height: 450px; /* Fixe la hauteur maximale de l'image */
+  object-fit: cover;
+  clip-path: polygon(25% 0, 100% 0, 75% 100%, 0 100%); /* Forme personnalisée */
+  box-shadow: none; /* Retire l'ombre pour éviter l'effet de bordure */
+  margin: 0; /* Enlève tout margin autour de l'image */
+  padding: 0; /* Supprime tout padding */
+  border: none; /* Supprime toute bordure potentielle */
+}
+
+/* Forcer les cartes à être collées */
+.custom-card-container + .custom-card-container {
+  margin-top: 15px;
+  margin-left: -115px; /* Élimine tout écart entre les cartes successives */
+}
+
+/* Adjust for mobile screens */
+@media (max-width: 768px) {
+  .custom-card-container {
+    left: 0; /* Enlève le décalage sur petits écrans */
+    margin: 0;
+  }
+}
