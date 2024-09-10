@@ -1,0 +1,145 @@
+/* Style global pour la navbar */
+.my-navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+.navbar-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(to bottom, #243040, transparent);
+  padding: 10px 30px; /* Réduction du padding pour remonter un peu les textes */
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+}
+
+.navbar-scrolled {
+  background-color: #243040;
+  opacity: 0.9;
+}
+
+/* Logo */
+.logo img {
+  height: 50px;
+}
+
+/* Menu de navigation */
+.nav-items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+/* Menu en ligne */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  position: relative;
+}
+
+/* Liens du menu principal */
+.navbar-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 5px 10px; /* Ajustement du padding pour remonter les textes */
+  transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+  color: #f0f0f0;
+}
+
+/* Sous-menu déroulant */
+.has-dropdown:hover .dropdown {
+  display: block;
+}
+
+.has-dropdown .dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #243040;
+  padding: 10px 0;
+  border-radius: 4px;
+  min-width: 200px;
+  list-style: none; /* Supprime les points des éléments de la liste */
+}
+
+.dropdown li {
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown a {
+  padding: 10px 20px;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown a:hover {
+  background-color: #1b2a3c;
+}
+
+/* Bouton pour le menu mobile */
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  position: absolute;
+  right: 30px;
+  top: 15px;
+}
+
+.menu-toggle .bar {
+  height: 3px;
+  background-color: white;
+  width: 100%;
+}
+
+/* Afficher le bouton toggle sur mobile */
+@media (max-width: 992px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-items {
+    display: none;
+  }
+
+  .nav-items.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #243040;
+    width: 100%;
+  }
+
+  .navbar-menu {
+    flex-direction: column;
+  }
+
+  .navbar-menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .has-dropdown .dropdown {
+    position: static;
+  }
+}
