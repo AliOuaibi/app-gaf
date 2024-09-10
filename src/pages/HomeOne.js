@@ -1,5 +1,6 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
+const SectionAbout = React.lazy(() => import( "../components/SectionAbout"));
 const BannerOne = React.lazy(() => import("../components/BannerOne"));
 const AboutOne = React.lazy(() => import("../components/AboutOne"));
 const CounterOne = React.lazy(() => import("../components/CounterOne"));
@@ -27,36 +28,19 @@ const HomeOne = () => {
           {/* About One */}
           <AboutOne />
 
-          {/* Feature One */}
-          {/*<FeatureOne />*/}
+          <SectionAbout />
 
 
           {/* Service One */}
           <ServiceOne />
 
-          {/* Why Choose Us One */}
-          {/*<WhyChooseUsOne />*/}
-
-          {/* Counter One */}
-
           <CounterOne />
-
-          {/* Contact One */}
-          {/*<div*/}
-          {/*  className='call-to-contact-area pd-top-240'*/}
-          {/*  style={{ background: "#F9F9F9" }}*/}
-          {/*>*/}
-          {/*  <ContactOne />*/}
-          {/*</div>*/}
 
           {/* Portfolio One */}
           <PortfolioOne />
 
           {/* Partner One */}
           <PartnerOne />
-
-          {/* Footer One */}
-          <FooterOne />
 
           {/* Footer Bottom One */}
           <FooterBottomOne />
