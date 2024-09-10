@@ -3,7 +3,6 @@ import React from "react";
 const BannerOne = () => {
   return (
     <>
-      {/* banner start */}
       <div className='banner-area banner-area-1'>
         <div className='banner-slider owl-carousel'>
             <div>
@@ -26,7 +25,6 @@ const BannerOne = () => {
             </div>
         </div>
       </div>
-      {/* banner end */}
     </>
   );
 };
