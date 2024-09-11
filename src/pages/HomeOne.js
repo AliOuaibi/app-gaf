@@ -9,7 +9,8 @@ const FooterBottomOne = React.lazy(() =>
 );
 const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
 const PartnerOne = React.lazy(() => import("../components/PartnerOne"));
-const PortfolioOne = React.lazy(() => import("../components/PortfolioOne"));
+const EcoOne = React.lazy(() => import("../components/EcoOne"));
+const EcoBanner = React.lazy(() => import("../components/EcoBanner"));
 const ServiceOne = React.lazy(() => import("../components/ServiceOne"));
 
 const HomeOne = () => {
@@ -35,8 +36,9 @@ const HomeOne = () => {
 
           <CounterOne />
 
-          {/* Portfolio One */}
-          <PortfolioOne />
+          {/* Eco One */}
+          <EcoOne />
+          <EcoBanner />
 
           {/* Partner One */}
           <PartnerOne />
