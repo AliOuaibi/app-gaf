@@ -7,7 +7,7 @@ const ContactOne = () => {
     <>
       {/*contact-area start*/}
       <div>
-        <div className='container'>
+        <div className='container mb-120'>
           <div className='row justify-content-center'>
             <div className='col-xl-6 col-lg-7'>
               <div className='cta-inner-wrap'>
