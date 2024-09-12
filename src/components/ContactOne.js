@@ -7,9 +7,8 @@ const ContactOne = () => {
     <>
       {/*contact-area start*/}
       <div>
-        <img src='assets/img/contact/gaf-2.png' alt='GAF' />
         <div className='container'>
-          <div className='row justify-content-end'>
+          <div className='row justify-content-center'>
             <div className='col-xl-6 col-lg-7'>
               <div className='cta-inner-wrap'>
                 <div className='section-title style-white mb-0'>

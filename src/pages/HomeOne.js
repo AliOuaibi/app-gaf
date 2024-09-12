@@ -31,7 +31,7 @@ const HomeOne = () => {
           <SectionAbout />
 
 
-          {/* Service One */}
+          {/* Formation One */}
           <ServiceOne />
 
           <CounterOne />

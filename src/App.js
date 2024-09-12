@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import ScrollToTop from "react-scroll-to-top";
 import About from "./pages/About";
-import Service from "./pages/Service";
+import Formation from "./pages/Formation";
 import ServiceDetails from "./pages/ServiceDetails";
 import Blog from "./pages/Blog";
 import BlogDetails from "./pages/BlogDetails";
@@ -29,7 +29,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<HomeOne />} />
         <Route exact path='/about' element={<About />} />
-        <Route exact path='/formation' element={<Service />} />
+        <Route exact path='/formation' element={<Formation />} />
         <Route exact path='/service-details' element={<ServiceDetails />} />
         <Route exact path='/blog' element={<Blog />} />
         <Route exact path='/blog-details' element={<BlogDetails />} />
