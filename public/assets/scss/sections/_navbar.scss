@@ -100,6 +100,10 @@
         width: 100%;
         text-align: left;
         li {
+          display: inline-block;
+          font-weight: 500;
+          line-height: 50px;
+          text-transform: capitalize;
           a {
             color: var(--heading-color);
             font-weight: 500;
@@ -111,10 +115,6 @@
           + li {
             margin-left: 15px;
           }
-          display: inline-block;
-          font-weight: 500;
-          line-height: 50px;
-          text-transform: capitalize;
           &.menu-item-has-children {
             position: relative;
             z-index: 0;
@@ -638,14 +638,14 @@
           display: block;
           margin-top: 20px;
           li {
-            a {
-              display: block;
-            }
             display: block;
             text-align: left;
             line-height: 30px;
             padding: 10px 0;
             border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+            a {
+              display: block;
+            }
             &:last-child {
               border-bottom: none;
             }
@@ -686,6 +686,7 @@
                   content: "\f107";
                 }
                 li {
+                  padding: 0;
                   &.menu-item-has-children {
                     &:hover {
                       &:before {
@@ -694,7 +695,6 @@
                       }
                     }
                   }
-                  padding: 0;
                   + li {
                     border-top: none;
                   }

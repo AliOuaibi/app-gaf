@@ -10,8 +10,13 @@ const ServiceOne = () => {
         style={{backgroundImage: 'linear-gradient(to left, white, lightgray)',}}
       >
           <div className='service-block-1'>
-            <div className='text-center'>
-              <h2 className='title'>NOTRE SERVICE POUR VOUS</h2>
+            <div className='mx-auto'>
+              <p style={{fontWeight: "500", fontSize: "45px"}}>UNE FLOTTE</p>
+              <h2 className='title' style={{fontWeight: "900", lineHeight: "64px", marginTop: "-20px"}}>
+                HAUT DE GAMME ET
+                RECENTE.
+              </h2>
+              <div style={{borderBottom: "10px solid #243040", margin: "20px 0", width: "50%"}}></div>
               <p>
                 Découvrez notre expertise à travers des services de transport poids lourd,
                 location flexible de véhicules, formation spécialisée,
@@ -21,8 +26,8 @@ const ServiceOne = () => {
             </div>
           </div>
 
-          <div className='service-block-2'>
-            <img src="assets/img/service/truck-left.png" alt="gaf-truck" style={{display: 'block', marginLeft: 'auto', width: '80%'}}/>
+        <div className='service-block-2'>
+          <img src="assets/img/service/camion.png" alt="gaf-truck" style={{display: 'block', marginLeft: 'auto', width: '100%'}}/>
           </div>
         </div>
 

@@ -45,7 +45,7 @@ const PartnerOne = () => {
   return (
     <>
       {/*partner-area start*/}
-      <div className='partner-area pd-top-90 pd-bottom-120'>
+      <div className='partner-area pd-top-90 pd-bottom-60'>
         <div className='container'>
           <div className='row justify-content-center'>
             <div className='col-lg-7'>
