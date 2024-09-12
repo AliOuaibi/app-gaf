@@ -24,7 +24,7 @@ const ServiceDetails = () => {
           {/* Breadcrumb */}
           <Breadcrumb title={"SERVICES DETAILS"} />
 
-          {/* Service Details Inner */}
+          {/* Formation Details Inner */}
           <ServiceDetailsInner />
 
           {/* Footer One */}

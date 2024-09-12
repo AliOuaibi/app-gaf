@@ -5,12 +5,10 @@ const ContactOne = React.lazy(() => import("../components/ContactOne"));
 const FooterBottomOne = React.lazy(() =>
   import("../components/FooterBottomOne")
 );
-const FooterOne = React.lazy(() => import("../components/FooterOne"));
 const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
-const PartnerOne = React.lazy(() => import("../components/PartnerOne"));
-const ServiceOneAll = React.lazy(() => import("../components/ServiceOneAll"));
+const FormationContent = React.lazy(() => import("../components/FormationContent"));
 
-const Service = () => {
+const Formation = () => {
   return (
     <>
       <Fragment>
@@ -20,21 +18,15 @@ const Service = () => {
           <NavbarOne />
 
           {/* Breadcrumb */}
-          <Breadcrumb title={"FORMATION"} banner={"formation-bg.png"}/>
+          <Breadcrumb title={"FORMATION"} banner={"formation-bg.png"} video/>
 
-          {/* Service One All */}
-          <ServiceOneAll />
+          {/* Formation One All */}
+          <FormationContent />
 
           {/* Contact One */}
           <div className='call-to-contact-area pd-top-140  mt-0'>
             <ContactOne />
           </div>
-
-          {/* Partner One */}
-          <PartnerOne />
-
-          {/* Footer One */}
-          <FooterOne />
 
           {/* Footer Bottom One */}
           <FooterBottomOne />
@@ -44,4 +36,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Formation;

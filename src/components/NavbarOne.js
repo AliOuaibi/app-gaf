@@ -51,7 +51,7 @@ const NavbarOne = () => {
                 <Link to="/">TRANSPORT</Link>
               </li>
               <li>
-                <Link to="/">FORMATIONS</Link>
+                <Link to="/formation">FORMATIONS</Link>
               </li>
               <li className="has-dropdown">
                 <Link to="/">REJOINDRE LE GROUPE</Link>

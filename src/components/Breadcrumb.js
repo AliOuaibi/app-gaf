@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 const Breadcrumb = ({ title, banner }) => {
   return (
     <>
-      {/* breadcrumb start */}
       <div
         className='breadcrumb-area bg-overlay-2'
         style={{ backgroundImage: `url('assets/img/banner/${banner}')` }}
@@ -27,7 +26,6 @@ const Breadcrumb = ({ title, banner }) => {
           </div>
         </div>
       </div>
-      {/* breadcrumb end */}
     </>
   );
 };
