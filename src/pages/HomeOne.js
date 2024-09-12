@@ -12,6 +12,7 @@ const PartnerOne = React.lazy(() => import("../components/PartnerOne"));
 const EcoOne = React.lazy(() => import("../components/EcoOne"));
 const EcoBanner = React.lazy(() => import("../components/EcoBanner"));
 const ServiceOne = React.lazy(() => import("../components/ServiceOne"));
+const SolutionOne = React.lazy(() => import("../components/SolutionOne"));
 
 const HomeOne = () => {
   return (
@@ -35,6 +36,8 @@ const HomeOne = () => {
           <ServiceOne />
 
           <CounterOne />
+
+          <SolutionOne />
 
           {/* Eco One */}
           <EcoOne />

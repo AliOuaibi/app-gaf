@@ -1048,6 +1048,7 @@
   margin-bottom: -109px;
 }
 .partner-slider {
+  margin-top: -100px;
   .thumb {
     cursor: pointer;
     &:hover {
@@ -1056,8 +1057,8 @@
       }
     }
     img {
-      width: auto;
-      margin: auto;
+      width: 150px;
+      margin: 150px;
       filter: grayscale(1);
       transition: $transition;
     }
