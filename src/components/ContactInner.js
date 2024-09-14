@@ -12,15 +12,18 @@ import emailjs from "@emailjs/browser";
 import { toast, Toaster } from "react-hot-toast";
 const ContactInner = () => {
   const form = useRef();
+  const serviceId = process.env.REACT_APP_SERVICE_ID
+  const templateContactId = process.env.REACT_APP_TEMPLATE_CONTACT_ID
+  const publicKey = process.env.REACT_APP_PUBLIC_KEY
 
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_afsfpen", //YOUR_SERVICE_ID
-        "template_689s3si", //YOUR_TEMPLATE_ID
+        serviceId,
+        templateContactId,
         form.current,
-        "0oYELb59axejqaeP0" //YOUR_PUBLIC_KEY
+        publicKey
       )
       .then(
         (result) => {
@@ -172,7 +175,9 @@ const ContactInner = () => {
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2636.953259513338!2d2.3999342125507157!3d48.629876471182435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5de6611803391%3A0xa5d37e8e95283f43!2s3%20Rue%20Jules%20Guesde%2C%2091130%20Ris-Orangis!5e0!3m2!1sfr!2sfr!4v1726300878806!5m2!1sfr!2sfr"
           loading="lazy"
-          title="Carte de localisation de l'entreprise">
+          title="Carte de localisation de l'entreprise"
+          allowFullScreen
+        >
         </iframe>
       </div>
     </>
