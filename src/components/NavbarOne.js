@@ -65,7 +65,7 @@ const NavbarOne = () => {
                 </ul>
               </li>
               <li>
-                <Link to="/">CONTACT</Link>
+                <Link to="/contact">CONTACT</Link>
               </li>
             </ul>
           </div>
