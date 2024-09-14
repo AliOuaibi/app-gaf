@@ -7,15 +7,11 @@ const FooterBottomOne = React.lazy(() =>
 );
 const FooterOne = React.lazy(() => import("../components/FooterOne"));
 const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
-const SearchPopup = React.lazy(() => import("../elements/SearchPopup"));
 const Contact = () => {
   return (
     <>
       <Fragment>
         <Suspense fallback={<Preloader />}>
-          {/* Search Popup */}
-          <SearchPopup />
-
           {/* Navbar One */}
           <NavbarOne />
 
