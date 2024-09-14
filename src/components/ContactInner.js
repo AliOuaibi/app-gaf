@@ -15,18 +15,17 @@ const ContactInner = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    // Please See Documentation for more information
     emailjs
       .sendForm(
-        "service_yipk4xg", //YOUR_SERVICE_ID
-        "template_71bgc2q", //YOUR_TEMPLATE_ID
+        "service_afsfpen", //YOUR_SERVICE_ID
+        "template_689s3si", //YOUR_TEMPLATE_ID
         form.current,
-        "cwf8kROl5o3__96Ti" //YOUR_PUBLIC_KEY
+        "0oYELb59axejqaeP0" //YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
           if (result.text === "OK") {
-            toast.success("Massage Sent Successfully!");
+            toast.success("Votre email à été envoyé avec succès !");
             form.current[0].value = "";
             form.current[1].value = "";
             form.current[2].value = "";
@@ -35,7 +34,7 @@ const ContactInner = () => {
         },
         (error) => {
           if (error.text !== "OK") {
-            toast.success("Massage Not Sent!");
+            toast.success("Votre email n'a pas pu être envoyé !");
           }
         }
       );
@@ -53,7 +52,7 @@ const ContactInner = () => {
                 ref={form}
                 onSubmit={sendEmail}
               >
-                <h3>GET A QUOTE</h3>
+                <h3>VOUS AVEZ UNE REQUÊTE</h3>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='single-input-inner'>
@@ -62,7 +61,7 @@ const ContactInner = () => {
                       </label>
                       <input
                         type='text'
-                        placeholder='Your name'
+                        placeholder='Votre nom et prénom'
                         name='user_name'
                       />
                     </div>
@@ -73,8 +72,8 @@ const ContactInner = () => {
                         <FaRegEnvelope />
                       </label>
                       <input
-                        type='text'
-                        placeholder='Your email'
+                        type='email'
+                        placeholder='Votre adresse mail'
                         name='user_email'
                       />
                     </div>
@@ -84,7 +83,11 @@ const ContactInner = () => {
                       <label>
                         <FaCalculator />
                       </label>
-                      <input type='text' placeholder=' Phone number' />
+                      <input
+                        type='text'
+                        placeholder='Votre numéro de téléphone'
+                        name="user_phone"
+                      />
                     </div>
                   </div>
                   <div className='col-md-6'>
@@ -92,10 +95,10 @@ const ContactInner = () => {
                       <label>
                         <FaFileAlt />
                       </label>
-                      <select className='single-select'>
-                        <option>Subject</option>
-                        <option value={1}>Some option</option>
-                        <option value={2}>Another option</option>
+                      <select className='single-select' name="subject">
+                        <option>Sujet</option>
+                        <option value={"Info"}>Demande d'informations</option>
+                        <option value={"Autres"}>Autres sujet</option>
                       </select>
                     </div>
                   </div>
@@ -105,16 +108,17 @@ const ContactInner = () => {
                         <FaPencilAlt />
                       </label>
                       <textarea
-                        placeholder='Write massage'
+                        placeholder='Votre message'
                         defaultValue={""}
                         id='massage'
+                        name="message"
                       />
                     </div>
                   </div>
                   <div className='col-12'>
                     <button className='btn btn-base' type='submit'>
                       {" "}
-                      SEND MESSAGE
+                      ENVOYER VOTRE MESSAGE
                     </button>
                   </div>
                 </div>
@@ -122,40 +126,38 @@ const ContactInner = () => {
             </div>
             <div className='col-lg-5'>
               <div className='contact-information-wrap'>
-                <h3>CONTACT INFORMATION</h3>
+                <h3>INFORMATION</h3>
                 <div className='single-contact-info-wrap'>
-                  <h6>Contact Number:</h6>
+                  <h6>Numéro de téléphone:</h6>
                   <div className='media'>
                     <div className='icon'>
                       <FaPhoneAlt />
                     </div>
                     <div className='media-body'>
-                      <p>+1 952-435-7106</p>
-                      <p>+1 932-654-9874</p>
+                      <p>+33767665415</p>
                     </div>
                   </div>
                 </div>
                 <div className='single-contact-info-wrap'>
-                  <h6>Mail Address:</h6>
+                  <h6>Adresse Mail:</h6>
                   <div className='media'>
                     <div className='icon' style={{ background: "#080C24" }}>
                       <FaRegEnvelope />
                     </div>
                     <div className='media-body'>
-                      <p>info@transpro.com</p>
-                      <p>info.example@gmail.com</p>
+                      <p>contact@groupe-afret.fr</p>
                     </div>
                   </div>
                 </div>
                 <div className='single-contact-info-wrap mb-0'>
-                  <h6>Office Location:</h6>
+                  <h6>Localisation:</h6>
                   <div className='media'>
                     <div className='icon' style={{ background: "#565969" }}>
                       <FaMapMarkerAlt />
                     </div>
                     <div className='media-body'>
-                      <p>2245 Gilbert Ave, Cincinnati, OH</p>
-                      <p>45206, United States</p>
+                      <p>3 Rue Jules Guesde</p>
+                      <p>91130 Ris-Orangis</p>
                     </div>
                   </div>
                 </div>
@@ -167,7 +169,11 @@ const ContactInner = () => {
       {/* contact area end */}
 
       <div className='contact-g-map'>
-        <iframe src='https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d29208.601361499546!2d90.3598076!3d23.7803374!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1589109092857!5m2!1sen!2sbd' title="Carte de localisation de l'entreprise" />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2636.953259513338!2d2.3999342125507157!3d48.629876471182435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e5de6611803391%3A0xa5d37e8e95283f43!2s3%20Rue%20Jules%20Guesde%2C%2091130%20Ris-Orangis!5e0!3m2!1sfr!2sfr!4v1726300878806!5m2!1sfr!2sfr"
+          loading="lazy"
+          title="Carte de localisation de l'entreprise">
+        </iframe>
       </div>
     </>
   );

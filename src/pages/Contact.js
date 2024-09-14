@@ -5,7 +5,6 @@ const ContactInner = React.lazy(() => import("../components/ContactInner"));
 const FooterBottomOne = React.lazy(() =>
   import("../components/FooterBottomOne")
 );
-const FooterOne = React.lazy(() => import("../components/FooterOne"));
 const NavbarOne = React.lazy(() => import("../components/NavbarOne"));
 const Contact = () => {
   return (
@@ -16,13 +15,10 @@ const Contact = () => {
           <NavbarOne />
 
           {/* Breadcrumb */}
-          <Breadcrumb title={"CONTACT US"} />
+          <Breadcrumb title={"CONTACT"} />
 
           {/* Breadcrumb */}
           <ContactInner />
-
-          {/* Footer One */}
-          <FooterOne />
 
           {/* Footer Bottom One */}
           <FooterBottomOne />
