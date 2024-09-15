@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, {useRef, useState} from "react";
 import {
   FaCalculator,
   FaFileAlt,
@@ -8,31 +8,64 @@ import {
   FaRegEnvelope,
   FaUserAlt,
 } from "react-icons/fa";
+import { Toaster, toast } from "react-hot-toast";
 import emailjs from "@emailjs/browser";
-import { toast, Toaster } from "react-hot-toast";
+
 const ContactInner = () => {
   const form = useRef();
+  const [errors, setErrors] = useState({});
+  const [subject, setSubject] = useState("");
+
   const serviceId = process.env.REACT_APP_SERVICE_ID
   const templateContactId = process.env.REACT_APP_TEMPLATE_CONTACT_ID
   const publicKey = process.env.REACT_APP_PUBLIC_KEY
 
-  const sendEmail = (e) => {
-    e.preventDefault();
+  const handleSubjectChange = (e) => {
+    setSubject(e.target.value);
+  };
+
+  const fieldsToValidate = [
+    { name: "user_name", error: "Le nom est requis." },
+    { name: "user_email", error: "L'email est requis.", regex: /\S+@\S+\.\S+/, invalidError: "L'email n'est pas valide." },
+    { name: "user_phone", error: "Le numéro de téléphone est requis." },
+    { name: "subject", error: "Le sujet est requis." },
+    { name: "message", error: "Le message est requis." }
+  ];
+
+  const validateForm = (form) => {
+    const formData = new FormData(form.current);
+    const newErrors = {};
+
+    fieldsToValidate.forEach((field) => {
+      const value = formData.get(field.name);
+      if (!value) {
+        newErrors[field.name] = field.error;
+      } else if (field.regex && !field.regex.test(value)) {
+        newErrors[field.name] = field.invalidError;
+      }
+    });
+
+    return newErrors;
+  };
+
+  const sendEmail = (event) => {
+    event.preventDefault();
+
+    const validationErrors = validateForm(form);
+    setErrors(validationErrors);
+
+    if (Object.keys(validationErrors).length > 0) {
+      toast.error("Veuillez corriger les erreurs avant d'envoyer.");
+      return;
+    }
+
     emailjs
-      .sendForm(
-        serviceId,
-        templateContactId,
-        form.current,
-        publicKey
-      )
+      .sendForm(serviceId, templateContactId, form.current, publicKey)
       .then(
         (result) => {
           if (result.text === "OK") {
-            toast.success("Votre email à été envoyé avec succès !");
-            form.current[0].value = "";
-            form.current[1].value = "";
-            form.current[2].value = "";
-            form.current[3].value = "";
+            toast.success("Votre email a été envoyé avec succès !");
+            form.current.reset();
           }
         },
         (error) => {
@@ -42,10 +75,19 @@ const ContactInner = () => {
         }
       );
   };
+
   return (
     <>
+      <style>
+        {`
+          .error-text {
+            color: red;
+            font-size: 0.9em;
+            margin-top: 5px;
+          }
+        `}
+      </style>
       <Toaster position='bottom-center' reverseOrder={false} />
-      {/* contact area start */}
       <div className='container'>
         <div className='contact-area mg-top-120 mb-120'>
           <div className='row g-0 justify-content-center'>
@@ -67,6 +109,7 @@ const ContactInner = () => {
                         placeholder='Votre nom et prénom'
                         name='user_name'
                       />
+                      {errors.user_name && <p className="error-text">{errors.user_name}</p>}
                     </div>
                   </div>
                   <div className='col-md-6'>
@@ -79,6 +122,7 @@ const ContactInner = () => {
                         placeholder='Votre adresse mail'
                         name='user_email'
                       />
+                      {errors.user_email && <p className="error-text">{errors.user_email}</p>}
                     </div>
                   </div>
                   <div className='col-md-6'>
@@ -91,6 +135,7 @@ const ContactInner = () => {
                         placeholder='Votre numéro de téléphone'
                         name="user_phone"
                       />
+                      {errors.user_phone && <p className="error-text">{errors.user_phone}</p>}
                     </div>
                   </div>
                   <div className='col-md-6'>
@@ -98,17 +143,23 @@ const ContactInner = () => {
                       <label>
                         <FaFileAlt />
                       </label>
-                      <select className='single-select' name="subject">
-                        <option>Sujet</option>
-                        <option value={"Info"}>Demande d'informations</option>
-                        <option value={"Autres"}>Autres sujet</option>
+                      <select
+                        className="single-select"
+                        name="subject"
+                        value={subject}
+                        onChange={handleSubjectChange}
+                      >
+                        <option value="">Sujet</option>
+                        <option value={"Demande d'informations"}>Demande d'informations</option>
+                        <option value={"Autres demande"}>Autres sujet</option>
                       </select>
+                      {errors.subject && <p className="error-text">{errors.subject}</p>}
                     </div>
                   </div>
                   <div className='col-12'>
                     <div className='single-input-inner'>
                       <label>
-                        <FaPencilAlt />
+                        <FaPencilAlt/>
                       </label>
                       <textarea
                         placeholder='Votre message'
@@ -116,6 +167,7 @@ const ContactInner = () => {
                         id='massage'
                         name="message"
                       />
+                      {errors.message && <p className="error-text">{errors.message}</p>}
                     </div>
                   </div>
                   <div className='col-12'>
@@ -137,7 +189,7 @@ const ContactInner = () => {
                       <FaPhoneAlt />
                     </div>
                     <div className='media-body'>
-                      <p>+33767665415</p>
+                      <p>+33 6 17 68 35 48</p>
                     </div>
                   </div>
                 </div>
@@ -148,7 +200,7 @@ const ContactInner = () => {
                       <FaRegEnvelope />
                     </div>
                     <div className='media-body'>
-                      <p>contact@groupe-afret.fr</p>
+                      <p>contact@groupegaf.fr</p>
                     </div>
                   </div>
                 </div>
@@ -169,7 +221,6 @@ const ContactInner = () => {
           </div>
         </div>
       </div>
-      {/* contact area end */}
 
       <div className='contact-g-map'>
         <iframe
