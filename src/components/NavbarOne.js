@@ -60,7 +60,7 @@ const NavbarOne = () => {
                     <Link to="/">Devenir chauffeur</Link>
                   </li>
                   <li>
-                    <Link to="/">Devenir sous-traitant</Link>
+                    <Link to="/devenir-sous-traitant">Devenir sous-traitant</Link>
                   </li>
                 </ul>
               </li>

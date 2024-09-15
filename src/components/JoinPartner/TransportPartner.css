@@ -1,0 +1,96 @@
+.transport-partner {
+  text-align: center;
+  padding: 40px 0;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #666;
+}
+
+.image-container {
+  margin-bottom: 0;
+}
+
+.vehicles-image {
+  width: 100%;
+  height: auto;
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
+}
+
+.text-content-wrapper {
+  background-color: #f4f4f4;
+  padding-top: 130px;
+  padding-bottom: 50px;
+  margin-top: -100px;
+  width: 100%;
+}
+
+.text-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.text-content p {
+  font-size: 16px;
+  width: 70%;
+  color: #333;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Responsive Styles */
+@media (min-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .subtitle {
+    font-size: 18px;
+  }
+
+  .vehicles-image {
+    max-width: 800px;
+  }
+
+  .text-content p {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 40px;
+  }
+
+  .subtitle {
+    font-size: 20px;
+  }
+
+  .vehicles-image {
+    max-width: 1000px;
+  }
+
+  .text-content p {
+    font-size: 18px;
+  }
+}

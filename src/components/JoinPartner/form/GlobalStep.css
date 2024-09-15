@@ -1,0 +1,147 @@
+/* Style global pour le container */
+.step-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style des titres */
+.step-container h2 {
+  color: #243040;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Style des paragraphes */
+.step-container p {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Style des groupes de champs */
+.form-group {
+  display: flex; /* Flexbox pour aligner l'icône et l'input */
+  align-items: center; /* Aligner verticalement */
+  margin-bottom: 20px;
+  position: relative; /* Permet de positionner les icônes */
+}
+
+/* Icônes à gauche */
+.form-icon {
+  color: #666;
+  font-size: 20px;
+  margin-right: 10px; /* Espacement entre l'icône et le champ de saisie */
+}
+
+/* Style des champs texte */
+.form-group input,
+.form-group textarea {
+  flex: 1; /* Permet au champ de saisie de prendre tout l'espace restant */
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Champs texte en focus */
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #243040;
+  outline: none;
+}
+
+/* Alignement horizontal pour les questions et réponses */
+.form-group-radio {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* Le label principal (question) à gauche */
+.form-group-radio label:first-child {
+  font-weight: bold;
+  margin-right: 20px; /* Espace entre le label de la question et les options */
+  flex: 0 0 300px; /* Largeur fixe pour les labels des questions */
+}
+
+/* Conteneur pour les options radio */
+.form-group-radio-options {
+  display: flex;
+  gap: 20px; /* Espace entre les options radio */
+}
+
+/* Aligner les boutons radio avec leurs labels */
+.form-group-radio-options div {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/* Ajustement des boutons radio */
+.form-group-radio-options input[type="radio"] {
+  margin-right: 5px;
+}
+
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form-buttons .btn.left {
+  justify-content: flex-start;
+}
+
+.form-buttons .btn.right {
+  justify-content: flex-end;
+}
+
+/* Container specific to recap step */
+.step-container-recap {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Ensures all content inside is aligned to the left */
+}
+
+.step-container-recap h2 {
+  text-align: center;
+  color: #243040;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.step-container-recap p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+/* Align list items to the left */
+.step-container-recap ul {
+  padding-left: 20px; /* Adds space to indent the list */
+  list-style-position: inside; /* Ensures list markers stay within the container */
+}
+
+.step-container-recap li {
+  margin-bottom: 10px; /* Adds space between each list item */
+}
+
+@media (max-width: 768px) {
+  .form-group-radio {
+    display: block;
+  }
+
+  .form-group-radio-options div {
+    margin: 0 auto;
+  }
+}

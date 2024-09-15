@@ -7,6 +7,7 @@ import ScrollToTop from "react-scroll-to-top";
 import Formation from "./pages/Formation";
 import Contact from "./pages/Contact";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
+import JoinPartner from "./pages/JoinPartner";
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<HomeOne />} />
         <Route exact path='/formation' element={<Formation />} />
+        <Route exact path='/devenir-sous-traitant' element={<JoinPartner />} />
         <Route exact path='/contact' element={<Contact />} />
       </Routes>
       <ScrollToTop smooth color='#243040' />

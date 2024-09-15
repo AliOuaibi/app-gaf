@@ -1,0 +1,62 @@
+/* Section principale */
+.form-join-partner {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Style de l'icône et des lignes */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.line {
+  width: 100px;
+  height: 1px;
+  background-color: #333;
+  margin: 0 10px;
+}
+
+.icon {
+  font-size: 36px;
+  color: #243040; /* Couleur rouge pour correspondre à l'image */
+}
+
+/* Titre principal */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Texte descriptif */
+.description {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .line {
+    width: 50px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+}
