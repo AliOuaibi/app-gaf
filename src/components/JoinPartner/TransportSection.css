@@ -1,0 +1,145 @@
+/* Section principale */
+.transport-section {
+  padding: 40px 20px;
+}
+
+.container-section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Flexbox pour la première section */
+.content-transport-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  position: relative; /* Nécessaire pour la barre */
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Barre de séparation verticale */
+.content-transport-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background-color: #243040; /* Couleur de la barre */
+  transform: translateX(-50%);
+}
+
+/* Titre de chaque section */
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.underline {
+  width: 70px;
+  height: 4px;
+  background-color: #243040;
+  margin-bottom: 20px;
+}
+
+/* Liste de chaque colonne */
+.column ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 10px;
+  margin-inline-end: 25px;
+  padding-inline-start: 40px;
+}
+
+.column ul li {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 16px;
+}
+
+.column ul li strong {
+  font-weight: bold;
+  color: #000;
+}
+
+.column p {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Nouvelle section avec fond bleu */
+.blue-section {
+  background-color: rgba(36, 48, 64, 0.5);
+  border-radius: 10px;
+  padding: 50px;
+  color: #fff;
+  max-width: 900px;
+  margin: 50px auto;
+}
+
+.blue-section h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blue-section .underline {
+  background-color: #fff; /* Sous-ligne jaune */
+}
+
+.blue-section p {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.conditions-list {
+  list-style: none;
+  padding: 0;
+}
+
+.conditions-list li {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(214, 214, 214, 0.66);
+}
+
+.conditions-list li .icon {
+  font-size: 24px;
+  margin-right: 10px;
+  color: #fff; /* Couleur des icônes */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content-transport-section {
+    display: block;
+  }
+
+  .column {
+    margin-bottom: 30px;
+  }
+
+  .content-transport-section::after {
+    display: none;
+  }
+
+  .blue-section {
+    padding: 20px;
+  }
+}
