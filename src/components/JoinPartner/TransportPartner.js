@@ -5,10 +5,10 @@ const TransportPartner = () => {
   return (
     <section className="transport-partner">
       <div className="container">
-        <h2 className="title">DEVENEZ PARTENAIRE DE TRANSPORT</h2>
-        <p className="subtitle">
-          ET SOYEZ AUX CÔTÉS DU LEADER MONDIAL DU TRANSPORT EXPRESS
-          INTERNATIONAL DANS PLUS DE 220 PAYS ET TERRITOIRES
+        <h2 className="title">VOUS ÊTES TRANSPORTEUR ?</h2>
+        <p className="subtitle" style={{width: '65%', margin: '0 auto'}}>
+          Devenez partenaire de GAF et bénéficiez de notre réseau de clients,
+          pour une opportunités de ligne régulière ! <br/>
         </p>
         <div className="image-container">
           <img
@@ -21,14 +21,12 @@ const TransportPartner = () => {
       <div className="text-content-wrapper">
         <div className="text-content">
           <p>
-            En tant que prestataire de services d'excellence du GROUPE A FRET,
-            la qualité et la satisfaction absolue de nos clients
-            sont notre priorité.
+            Notre promesse : optimiser vos trajets avec les chargements de nos clients,
+            sur des lignes régulières et adaptées à vos moyens.
           </p>
           <p>
-            En France, nous exploitons un vaste réseau logistique et veillons à
-            ce que les envois express de nos clients atteignent leur destination
-            à temps et en toute sécurité.
+            Si vous souhaitez proposer les services de votre société,
+            il vous faut dans un premier temps vous inscrire
           </p>
         </div>
       </div>

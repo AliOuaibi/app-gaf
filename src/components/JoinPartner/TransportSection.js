@@ -16,37 +16,36 @@ const TransportSection = () => {
       <div className="container-section">
         <div className="content-transport-section">
           <div className="column left-column">
-            <h3>Nous attendons de vous</h3>
+            <h3>GARANTIE DE PAIEMENT</h3>
             <div className="underline"></div>
             <p>
-              Nous recherchons des partenaires de transport qualifiés sur une base
-              indépendante pour les domaines suivants :
+              Nous nous engageons à vous payer par virement dans le respect de la réglementation de 30 jours.
             </p>
-            <ul>
-              <li><strong>Transports – enlèvement et livraison</strong> sur la base de zones complètes ou de plusieurs
-                tournées
-              </li>
-              <li><strong>Enveloppe</strong> (dans les sites DHL et auprès de certains gros clients)</li>
-              <li><strong>Navette longue distance</strong> dit Linehaul</li>
-              <li><strong>Dépôt en mode Opérateur Agréé</strong> (exploitation autonome d’un site)</li>
-              <li><strong>Transport à vélo</strong></li>
-            </ul>
+            {/*<ul>*/}
+            {/*  <li><strong>Transports – enlèvement et livraison</strong> sur la base de zones complètes ou de plusieurs*/}
+            {/*    tournées*/}
+            {/*  </li>*/}
+            {/*  <li><strong>Enveloppe</strong> (dans les sites DHL et auprès de certains gros clients)</li>*/}
+            {/*  <li><strong>Navette longue distance</strong> dit Linehaul</li>*/}
+            {/*  <li><strong>Dépôt en mode Opérateur Agréé</strong> (exploitation autonome d’un site)</li>*/}
+            {/*  <li><strong>Transport à vélo</strong></li>*/}
+            {/*</ul>*/}
           </div>
 
           <div className="column right-column">
-            <h3>Vous pouvez attendre de nous</h3>
+            <h3>FORMATION</h3>
             <div className="underline"></div>
             <p>
-              Avec GAF, vous avez à vos côtés le leader mondial du commerce international
-              express. Cela signifie pour vous :
+              Profitez des infrastructures et de notre personnel qualifié pour
+              la formation de vos conducteurs et de vos exploitants.
             </p>
-            <ul>
-              <li><strong>Rémunération</strong> en adéquation avec les conditions du marché (indice carburant)</li>
-              <li><strong>Paiement ponctuel</strong> (via un système de facturation certifié)</li>
-              <li><strong>Subvention</strong> pour frais de publicité</li>
-              <li><strong>Un cadre</strong> clairement défini</li>
-              <li><strong>De nombreux avantages</strong> grâce aux conditions d’achat de GROUP A FRET</li>
-            </ul>
+            {/*<ul>*/}
+            {/*  <li><strong>Rémunération</strong> en adéquation avec les conditions du marché (indice carburant)</li>*/}
+            {/*  <li><strong>Paiement ponctuel</strong> (via un système de facturation certifié)</li>*/}
+            {/*  <li><strong>Subvention</strong> pour frais de publicité</li>*/}
+            {/*  <li><strong>Un cadre</strong> clairement défini</li>*/}
+            {/*  <li><strong>De nombreux avantages</strong> grâce aux conditions d’achat de GROUP A FRET</li>*/}
+            {/*</ul>*/}
           </div>
         </div>
       </div>

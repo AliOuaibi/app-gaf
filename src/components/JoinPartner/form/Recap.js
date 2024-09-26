@@ -24,20 +24,18 @@ const Recap = ({prevStep, values, sendEmail}) => {
       zipCode: values.zipCode,
       city: values.city,
       country: values.country,
-      transport: values.transport,
-      navette: values.navette,
-      tri: values.tri,
-      vehicules: values.vehicules,
-      departments: values.departments,
-      zones: values.zones,
       employees: values.employees,
       drivers: values.drivers,
       manutention: values.manutention,
       licenceCopies: values.licenceCopies,
-      camion75: values.camion75,
-      camion75Number: values.camion75Number,
-      camion40: values.camion40,
-      camion40Number: values.camion40Number,
+      vleger: values.vleger,
+      vlegerNumber: values.vlegerNumber,
+      poidsLourd: values.poidsLourd,
+      poidsLourdNumber: values.poidsLourdNumber,
+      spl: values.spl,
+      splNumber: values.splNumber,
+      porteCaisse: values.porteCaisse,
+      porteCaisseNumber: values.porteCaisseNumber,
       experience: values.experience,
       references: values.references,
     };
@@ -66,20 +64,16 @@ const Recap = ({prevStep, values, sendEmail}) => {
         <li><strong>Pays:</strong> {values.country}</li>
 
         {/* Étape 2 - Domaines d'activité */}
-        <li><strong>Transport - enlèvement et livraison:</strong> {values.transport}</li>
-        <li><strong>Navette longue distance (national):</strong> {values.navette}</li>
-        <li><strong>Tri:</strong> {values.tri}</li>
-        <li><strong>Véhicules respectueux de l'environnement:</strong> {values.vehicules}</li>
-        <li><strong>Départements de chalandise:</strong> {values.departments}</li>
-        <li><strong>Zone(s) du code postal:</strong> {values.zones}</li>
         <li><strong>Nombre d'employés:</strong> {values.employees}</li>
         <li><strong>Nombre de chauffeurs:</strong> {values.drivers}</li>
         <li><strong>Personnel de manutention:</strong> {values.manutention}</li>
         <li><strong>Nombre de copies de licence:</strong> {values.licenceCopies}</li>
 
         {/* Étape 3 - Flotte et autres détails */}
-        <li><strong>Camion 7.5T:</strong> {values.camion75} - <strong>Nombre de camions 7.5T:</strong> {values.camion75Number}</li>
-        <li><strong>Camion 40T:</strong> {values.camion40} - <strong>Nombre de camions 40T:</strong> {values.camion40Number}</li>
+        <li><strong>VL:</strong> {values.vleger} - <strong>Nombre de camions VL:</strong> {values.vlegerNumber}</li>
+        <li><strong>PL:</strong> {values.poidsLourd} - <strong>Nombre de camions PL:</strong> {values.poidsLourdNumber}</li>
+        <li><strong>SPL:</strong> {values.spl} - <strong>Nombre de camions SPL:</strong> {values.spl}</li>
+        <li><strong>PORTE-CAISSES:</strong> {values.porteCaisse} - <strong>Nombre de porte-caisses:</strong> {values.porteCaisseNumber}</li>
         <li><strong>Votre expérience:</strong> {values.experience}</li>
         <li><strong>Vos références:</strong> {values.references}</li>
       </ul>
