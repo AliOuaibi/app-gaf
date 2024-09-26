@@ -5,6 +5,9 @@ const SectionAbout = () => {
   return (
     <>
       <div className='custom-cards-container'>
+        <div className='container-title-container'>
+          <h5 className="title-custom-card">NOUS PROPOSONS LES SERVICES SUIVANTS</h5>
+        </div>
         <div className='custom-cards-wrapper'>
           {/* Card 1 */}
           <div className='custom-card-container'>
@@ -14,6 +17,9 @@ const SectionAbout = () => {
                 alt='Transport porte-caisse mobile'
                 className='custom-responsive-image'
               />
+              <div className="about-custom-card">
+                <p className="paragraphe-about-card">Transport <br/>porte-caisse mobile</p>
+              </div>
             </div>
           </div>
 
@@ -21,10 +27,13 @@ const SectionAbout = () => {
           <div className='custom-card-container'>
             <div className='custom-card'>
               <img
-                src='assets/img/service/service2.png'
+                src='assets/img/about/chauffeur.png'
                 alt='Transport tracteur semi-remorque'
                 className='custom-responsive-image'
               />
+              <div className="about-custom-card">
+                <p className="paragraphe-about-card">Transport <br/>tracteur semi-remorque</p>
+              </div>
             </div>
           </div>
 
@@ -32,10 +41,13 @@ const SectionAbout = () => {
           <div className='custom-card-container'>
             <div className='custom-card'>
               <img
-                src='assets/img/service/service1.png'
+                src='assets/img/about/chauffeur.png'
                 alt='Location de véhicule avec conducteur'
                 className='custom-responsive-image'
               />
+              <div className="about-custom-card">
+                <p className="paragraphe-about-card">Location de véhicule <br/>avec conducteur</p>
+              </div>
             </div>
           </div>
         </div>
