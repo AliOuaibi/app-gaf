@@ -97,7 +97,7 @@ const ContactInner = () => {
                 ref={form}
                 onSubmit={sendEmail}
               >
-                <h3>VOUS AVEZ UNE REQUÊTE</h3>
+                <h3>CONCTATEZ-NOUS</h3>
                 <div className='row'>
                   <div className='col-md-6'>
                     <div className='single-input-inner'>
@@ -150,7 +150,9 @@ const ContactInner = () => {
                         onChange={handleSubjectChange}
                       >
                         <option value="">Sujet</option>
-                        <option value={"Demande d'informations"}>Demande d'informations</option>
+                        <option value={"FORMATION"}>FORMATION</option>
+                        <option value={"DEVENIR CHAUFFEUR"}>DEVENIR CHAUFFEUR</option>
+                        <option value={"DEVENIR SOUS-TRAITANT"}>DEVENIR SOUS-TRAITANT</option>
                         <option value={"Autres demande"}>Autres sujet</option>
                       </select>
                       {errors.subject && <p className="error-text">{errors.subject}</p>}
