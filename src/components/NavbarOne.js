@@ -57,10 +57,10 @@ const NavbarOne = () => {
                 <Link to="/">REJOINDRE LE GROUPE</Link>
                 <ul className="dropdown">
                   <li>
-                    <Link to="/">Devenir chauffeur</Link>
+                    <Link to="/">DEVENIR CHAUFFEUR</Link>
                   </li>
                   <li>
-                    <Link to="/devenir-sous-traitant">Devenir sous-traitant</Link>
+                    <Link to="/devenir-sous-traitant">DEVENIR SOUS-TRAITANT</Link>
                   </li>
                 </ul>
               </li>

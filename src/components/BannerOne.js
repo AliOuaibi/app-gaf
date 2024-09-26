@@ -45,7 +45,7 @@ const BannerOne = () => {
             color: '#fff'
           }}
         >
-          DEVENIR PARTENAIRE DE TRANSPORT
+          VOTRE TRANSPORTEUR DE DEMAIN
         </p>
         <h1
           style={{
