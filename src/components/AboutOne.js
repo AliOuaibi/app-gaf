@@ -15,10 +15,10 @@ const AboutOne = () => {
                     </h2>
                     <div style={{borderBottom: "10px solid #243040", margin: "20px auto", width: "20%"}}></div>
                     <p className='content'>
-                      Bienvenue chez GROUPE A FRET, également connu sous le nom de GAF, une entreprise de transport
-                      innovante et déterminée. Notre dossier d'appel d'offres vise à démontrer notre engagement à
-                      devenir votre partenaire priviligié pour des solutions de transport en semi-remorques fiables et
-                      adaptées.
+                      Spécialisés dans le transport en semi-remorques et caisses mobiles sur des
+                      lignes régulières à travers la France, nous intervenons principalement pour la messagerie,
+                      le colis, et la distribution. Notre expertise repose sur près de 5 ans d'engagement, de rigueur,
+                      d’exigence, de réactivité, et de respect des délais.
                     </p>
                   </div>
                 </div>
