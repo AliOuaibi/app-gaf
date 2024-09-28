@@ -1,5 +1,6 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
+import {imgPartner} from "../data/img/imgPartner";
 const SectionAbout = React.lazy(() => import( "../components/SectionAbout"));
 const BannerOne = React.lazy(() => import("../components/BannerOne"));
 const AboutOne = React.lazy(() => import("../components/AboutOne"));
@@ -19,34 +20,25 @@ const HomeOne = () => {
     <>
       <Fragment>
         <Suspense fallback={<Preloader />}>
-
-          {/* Navbar One */}
           <NavbarOne />
 
-          {/* Banner One */}
           <BannerOne />
 
-          {/* About One */}
           <AboutOne />
 
           <SectionAbout />
 
-
-          {/* Formation One */}
           <ServiceOne />
 
           <CounterOne />
 
           <SolutionOne />
 
-          {/* Eco One */}
           <EcoOne />
           <EcoBanner />
 
-          {/* Partner One */}
-          <PartnerOne />
+          <PartnerOne imgPartner={imgPartner} text/>
 
-          {/* Footer Bottom One */}
           <FooterBottomOne />
         </Suspense>
       </Fragment>

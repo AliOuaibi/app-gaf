@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const ContactOne = () => {
   return (
     <>
-      {/*contact-area start*/}
       <div>
         <div className='container mb-120'>
           <div className='row justify-content-center'>
@@ -23,7 +22,7 @@ const ContactOne = () => {
                   </div>
                   <div className='details'>
                     <h6>Vous avez des questions ?</h6>
-                    <h3>+33767665415</h3>
+                    <h3>+33 6 17 68 35 48</h3>
                   </div>
                 </div>
                 <Link className='btn btn-base' to='/contact'>
@@ -34,7 +33,6 @@ const ContactOne = () => {
           </div>
         </div>
       </div>
-      {/*contact-area end*/}
     </>
   );
 };
