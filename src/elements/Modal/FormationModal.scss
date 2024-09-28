@@ -1,0 +1,40 @@
+.content-modal-formation {
+  .title-modal-formation {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .information-formation {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px auto;
+    width: 80%;
+    gap: 20px;
+    justify-content: center;
+
+    .content-information {
+      flex: 1 1 45%;
+      width: 80%;
+      margin: 0 10px;
+    }
+  }
+
+  .block-details-formation{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 80%;
+    gap: 10px;
+    justify-content: center;
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+  }
+}
