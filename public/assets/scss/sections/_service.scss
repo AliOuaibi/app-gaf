@@ -36,6 +36,7 @@
       }
       .btn-wrap {
         .read-more-text {
+          cursor: pointer;
           color: #fff;
           span {
             background: #fff;
@@ -103,12 +104,12 @@
     transition: $transition;
     padding: 32px 29px 30px;
     h5 {
+      font-size: 15px;
       margin-bottom: 8px;
       transition: $transition;
-      line-height: 31px;
+      line-height: 15px;
     }
     p {
-      line-height: 26px;
       border-bottom: 1px solid rgba(8, 12, 36, 0.15);
       padding-bottom: 17px;
       transition: $transition;
@@ -291,6 +292,7 @@
     .btn-wrap {
       .read-more-text {
         display: flex;
+        cursor: pointer;
         font-weight: 700;
         font-size: 14px;
         transition: $transition;

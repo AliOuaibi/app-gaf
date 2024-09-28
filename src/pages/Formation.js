@@ -1,5 +1,8 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
+import {FormationContentPartner} from "../components/FormationContentPartner";
+import {imgPartnerFormation} from "../data/img/imgPartner";
+import PartnerOne from "../components/PartnerOne";
 const Breadcrumb = React.lazy(() => import("../components/Breadcrumb"));
 const ContactOne = React.lazy(() => import("../components/ContactOne"));
 const FooterBottomOne = React.lazy(() =>
@@ -22,6 +25,11 @@ const Formation = () => {
 
           {/* Formation One All */}
           <FormationContent />
+
+          <FormationContentPartner/>
+
+          <PartnerOne imgPartner={imgPartnerFormation}/>
+
 
           {/* Contact One */}
           <div className='call-to-contact-area pd-top-140  mt-0'>
