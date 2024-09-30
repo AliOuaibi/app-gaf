@@ -16,27 +16,14 @@ const Formation = () => {
     <>
       <Fragment>
         <Suspense fallback={<Preloader />}>
-
-          {/* Navbar One */}
           <NavbarOne />
-
-          {/* Breadcrumb */}
           <Breadcrumb title={"FORMATION"} banner={"formation-bg.png"} video/>
-
-          {/* Formation One All */}
           <FormationContent />
-
           <FormationContentPartner/>
-
           <PartnerOne imgPartner={imgPartnerFormation}/>
-
-
-          {/* Contact One */}
           <div className='call-to-contact-area pd-top-140  mt-0'>
             <ContactOne />
           </div>
-
-          {/* Footer Bottom One */}
           <FooterBottomOne />
         </Suspense>{" "}
       </Fragment>

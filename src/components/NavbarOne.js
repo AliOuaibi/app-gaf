@@ -54,10 +54,10 @@ const NavbarOne = () => {
                 <Link to="/formation">FORMATIONS</Link>
               </li>
               <li className="has-dropdown">
-                <Link to="/">REJOINDRE LE GROUPE</Link>
+                <Link>REJOINDRE LE GROUPE</Link>
                 <ul className="dropdown">
                   <li>
-                    <Link to="/">DEVENIR CHAUFFEUR</Link>
+                    <Link to="/devenir-chaffeur">DEVENIR CHAUFFEUR</Link>
                   </li>
                   <li>
                     <Link to="/devenir-sous-traitant">DEVENIR SOUS-TRAITANT</Link>
