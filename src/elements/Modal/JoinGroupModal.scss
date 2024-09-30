@@ -1,0 +1,47 @@
+.content-modal-offer {
+  .title-modal-offer {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .container-form-join-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow-y: auto;
+    max-height: 70vh;
+
+    .block-description-offer {
+      margin: 0 auto;
+      width: 45%;
+      text-align: justify;
+    }
+
+    .contact-area-form-join-group {
+      position: sticky;
+      top: 20px;
+      width: 35%;
+      margin: 0 auto;
+      overflow-y: auto;
+    }
+  }
+}
+
+@media (max-width: 990px) {
+  .content-modal-offer {
+    .container-form-join-group {
+      flex-direction: column;
+      align-items: center;
+      max-height: none; /* Retirer la contrainte de hauteur maximale */
+      overflow: visible;
+
+      .block-description-offer, .contact-area-form-join-group {
+        margin: 30px auto;
+        width: 80%;
+      }
+
+    }
+  }
+}
