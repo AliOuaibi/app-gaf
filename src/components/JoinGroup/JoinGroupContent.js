@@ -1,6 +1,6 @@
 import React, {useState} from "react";
-import {TbClockHour4} from "react-icons/tb";
-import {FaInfoCircle} from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import {FaInfoCircle, FaFileContract, } from "react-icons/fa";
 import {offers} from "../../data/offers";
 import JoinGroupModal from "../../elements/Modal/JoinGroupModal";
 
@@ -38,18 +38,21 @@ const JoinGroupContent = () => {
           </div>
           <div className='row justify-content-center'>
             {offers.map((offer) => {
-                const {id, title, contract} = offer
+                const {id, title,detail,location,  contract, bannerImage} = offer
                 return (
                   <div className='col-lg-4' key={`offer-card-${id}`}>
                     <div className='single-service-wrap'>
                       <div className='thumb'>
+                        <img src={bannerImage} alt='GAF'/>
                         <div className='icon'>
                           <FaInfoCircle color="#fff" fontSize={35}/>
                         </div>
                       </div>
                       <div className='details'>
-                        <h5>{title}</h5>
-                        <p><TbClockHour4 style={{fontSize: "30px", fontWeight: "bold"}}/> {contract}</p>
+                      <h5>{title}</h5>
+                        <p><FaFileContract style={{fontSize: "25px", fontWeight: "bold"}}/> {contract}</p>
+                        <p>{detail}</p>
+                        <p><FaLocationDot style={{fontSize: "30px", fontWeight: "bold"}}/> {location}</p>
                         <div className='btn-wrap'>
                           <button
                             className='btn btn-base'

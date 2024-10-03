@@ -1,7 +1,10 @@
 export const offers = [{
   id: 1
   , title: "Chauffeur SPL Caisse Mobile"
+  , detail: "Vous conduisez des poids lourds et caisses mobiles, et vous vous assurez de la qualité de vos transports."
   , contract: "CDI"
+  , location: "ÎLE-DE-FRANCE"
+  , bannerImage: "assets/img/join-group/chauffeur-spl.png"
   , description: `GAF est une société spécialisée dans le transport de marchandises avec la mise 
   à disposition de chauffeurs. Depuis plus de 10 ans maintenant, nous accompagnons nos clients qui nous font 
   confiance et pour qui nous mettons chaque jour tout en œuvre afin d’être leur 
@@ -26,6 +29,7 @@ export const offers = [{
   </ul>
   
   <strong>Profil recherché – Compétences requises</strong>
+  <br/>
   Vous connaissez les règles de sécurité et respecter le code de la route, vous savez conduire un véhicule avec un 
   maximum d’économie d’énergie, vous utilisez des dispositifs électroniques embarqués : repérage par satellite, GPS, 
   informatique embarquée… Vous savez également gérer votre temps, prévoir votre itinéraire, respecter un horaire.<br/>
