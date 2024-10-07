@@ -51,7 +51,7 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter' style={{color: "#fff"}}>
-                          <CountUp delay={0} start={0} end={1} />MILLIONS
+                          <CountUp delay={0} start={0} end={1000000} />
                         </span>
                       )
                     }

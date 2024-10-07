@@ -8,6 +8,7 @@ import Formation from "./pages/Formation";
 import Contact from "./pages/Contact";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import JoinPartner from "./pages/JoinPartner";
+import JoinGroup from "./pages/JoinGroup";
 
 function App() {
   useEffect(() => {
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/' element={<HomeOne />} />
         <Route exact path='/formation' element={<Formation />} />
         <Route exact path='/devenir-sous-traitant' element={<JoinPartner />} />
+        <Route exact path='/devenir-chaffeur' element={<JoinGroup />} />
         <Route exact path='/contact' element={<Contact />} />
       </Routes>
       <ScrollToTop smooth color='#243040' />
