@@ -1,6 +1,6 @@
 import React from "react";
 
-const BannerOne = () => {
+const BannerOne = ({title, subTitle}) => {
   return (
     <div style={{position: 'relative', height: '100vh', overflow: 'hidden'}}>
       <video
@@ -45,7 +45,7 @@ const BannerOne = () => {
             color: '#fff'
           }}
         >
-          VOTRE TRANSPORTEUR DE DEMAIN
+          {subTitle ? subTitle : 'VOTRE TRANSPORTEUR DE DEMAIN'}
         </p>
         <h1
           style={{
@@ -55,7 +55,7 @@ const BannerOne = () => {
             color: '#fff'
           }}
         >
-          GRANDIR ENSEMBLE
+          {title ? title : 'GRANDIR ENSEMBLE'}
         </h1>
       </div>
     </div>

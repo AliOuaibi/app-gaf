@@ -5,11 +5,10 @@ const TransportPartner = () => {
   return (
     <section className="transport-partner">
       <div className="container">
-        <h2 className="title">VOUS ÊTES TRANSPORTEUR ?</h2>
-        <p className="subtitle" style={{width: '65%', margin: '0 auto'}}>
+        <h2 className="title">
           Devenez partenaire de GAF et bénéficiez de notre réseau de clients,
-          pour une opportunités de ligne régulière ! <br/>
-        </p>
+          pour une opportunités de ligne régulière !
+        </h2>
         <div className="image-container">
           <img
             src="/assets/img/img-truck.png"

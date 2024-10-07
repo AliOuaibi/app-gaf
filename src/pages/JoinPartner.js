@@ -15,7 +15,7 @@ const JoinPartner = () => {
       <Fragment>
         <Suspense fallback={<Preloader />}>
           <NavbarOne />
-          <BannerOne />
+          <BannerOne title={'DEVENIR PARTENAIRE DE TRANSPORT'} subTitle={'VOUS ÊTES TRANSPORTEUR ?'}/>
           <TransportPartner />
           <TransportSection />
           <FormJoinPartner />
