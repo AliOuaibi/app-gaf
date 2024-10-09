@@ -13,7 +13,7 @@ const SectionAbout = () => {
           <div className='custom-card-container'>
             <div className='custom-card'>
               <img
-                src='assets/img/about/chauffeur.png'
+                src='assets/img/about/porte-caisse.png'
                 alt='Transport porte-caisse mobile'
                 className='custom-responsive-image'
               />
@@ -27,7 +27,7 @@ const SectionAbout = () => {
           <div className='custom-card-container'>
             <div className='custom-card'>
               <img
-                src='assets/img/about/chauffeur.png'
+                src='assets/img/about/semi-remorque.png'
                 alt='Transport tracteur semi-remorque'
                 className='custom-responsive-image'
               />
@@ -41,7 +41,7 @@ const SectionAbout = () => {
           <div className='custom-card-container'>
             <div className='custom-card'>
               <img
-                src='assets/img/about/chauffeur.png'
+                src='assets/img/about/3.png'
                 alt='Location de véhicule avec conducteur'
                 className='custom-responsive-image'
               />
