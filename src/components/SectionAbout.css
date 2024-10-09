@@ -2,6 +2,9 @@
 .custom-cards-container {
   padding: 130px 0;
   position: relative;
+  display: flex; /* Flexbox pour aligner les éléments */
+  flex-direction: column; /* Colonne pour que le contenu soit empilé verticalement */
+  justify-content: flex-start;
 }
 
 .container-title-container {
@@ -31,6 +34,39 @@
   padding: 0; /* Élimine tout padding interne */
 }
 
+.title-about-card {
+  width: 50%;
+  background-color: #000;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 900;
+  margin: 0 auto;
+  transform: translateY(100%);
+  transition: transform 0.3s ease-in-out;
+  height: 60px; /* Hauteur fixe pour uniformiser les titres */
+  display: flex;
+  align-items: center; /* Centre verticalement le texte dans le titre */
+  justify-content: center; /* Centre horizontalement le texte dans le titre */
+}
+
+/* Apply hover on each card container */
+.custom-card-container:hover .title-about-card {
+  transform: translateY(0); /* Animation déclenchée au survol du conteneur */
+  cursor: default;
+  height: 100%;
+}
+
+.paragraphe-about-card {
+  height: 100px;
+}
+
+.custom-card-container:hover .paragraphe-about-card {
+  cursor: default;
+  opacity: 1; /* Affiche le texte seulement lors du survol */
+  font-weight: 1000; /* Change la police au survol */
+  height: 100%;
+}
+
 /* Each card */
 .custom-card {
   position: relative;
@@ -57,24 +93,39 @@
 }
 
 .about-custom-card {
+  transition: all 0.3s ease-in-out;
   position: absolute;
   bottom: 1rem;
-  width: fit-content;
   left: -2rem;
   text-align: center;
   width: 100%;
 }
 
-.paragraphe-about-card {
+.title-about-card {
+  width: 50%;
+  background-color: #000;
   color: #ffffff;
   font-size: 1.2rem;
   font-weight: 900;
-  margin: 0 0 .5rem;
+  margin: 0 auto;
+  transform: translateY(100%); /* Hidden by default */
+  transition: transform 0.3s ease-in-out;
+}
+
+.paragraphe-about-card {
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  opacity: 0; /* Hidden by default */
+  margin: 0 auto;
+  width: 60%;
+  justify-content: right;
+  transition: opacity 0.3s ease-in-out;
 }
 
 /* Adjust for mobile screens */
 @media (max-width: 768px) {
-  .custom-card-container + .custom-card-container + .custom-card-container{
+  .custom-card-container + .custom-card-container {
     margin-top: 20px;
     margin-left: 0; /* Enlève le décalage sur petits écrans */
   }

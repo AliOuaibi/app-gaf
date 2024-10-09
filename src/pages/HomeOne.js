@@ -1,6 +1,7 @@
 import React, { Fragment, Suspense } from "react";
 import Preloader from "../elements/Preloader";
 import {imgPartner} from "../data/img/imgPartner";
+import {CommercialBrochureButton} from "../components/CommercialBrochureButton";
 const SectionAbout = React.lazy(() => import( "../components/SectionAbout"));
 const BannerOne = React.lazy(() => import("../components/BannerOne"));
 const AboutOne = React.lazy(() => import("../components/AboutOne"));
@@ -27,6 +28,8 @@ const HomeOne = () => {
           <AboutOne />
 
           <SectionAbout />
+
+          <CommercialBrochureButton />
 
           <ServiceOne />
 

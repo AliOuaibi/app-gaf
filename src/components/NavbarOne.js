@@ -34,7 +34,7 @@ const NavbarOne = () => {
             </Link>
           </div>
 
-          <button
+          <div
             onClick={() => setOpen(!open)}
             className={`menu-toggle ${open ? "open" : ""}`}
             aria-expanded={open}
@@ -43,7 +43,7 @@ const NavbarOne = () => {
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
-          </button>
+          </div>
 
           <div className={`nav-items ${open ? "open" : ""}`}>
             <ul className="navbar-menu">
