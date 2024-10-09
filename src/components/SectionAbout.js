@@ -18,7 +18,11 @@ const SectionAbout = () => {
                 className='custom-responsive-image'
               />
               <div className="about-custom-card">
-                <p className="paragraphe-about-card">Transport <br/>porte-caisse mobile</p>
+                <h3 className="title-about-card">Transport <br/>porte-caisse mobile</h3>
+                <p className="paragraphe-about-card">
+                  Les prestations de GAF s’adressent à toute entreprise utilisant la caisse mobile :
+                  entreprises de messagerie, de mono colis, les réseaux de distribution non publics…
+                </p>
               </div>
             </div>
           </div>
@@ -32,7 +36,12 @@ const SectionAbout = () => {
                 className='custom-responsive-image'
               />
               <div className="about-custom-card">
-                <p className="paragraphe-about-card">Transport <br/>tracteur semi-remorque</p>
+                <h3 className="title-about-card">Transport <br/>tracteur semi-remorque</h3>
+                <p className="paragraphe-about-card">
+                  En fonction des besoins, des contraintes d’infrastructures ou de quais de chargement par exemple,
+                  le transport en semi-remorque peut être plus adapté. Les équipes de GAF exploitent des lignes
+                  régulières dans les régions où l’entreprise est implantée.
+                </p>
               </div>
             </div>
           </div>
@@ -46,7 +55,12 @@ const SectionAbout = () => {
                 className='custom-responsive-image'
               />
               <div className="about-custom-card">
-                <p className="paragraphe-about-card">Location de véhicule <br/>avec conducteur</p>
+                <h3 className="title-about-card">Location de véhicule <br/>avec conducteur</h3>
+                <p className="paragraphe-about-card">
+                  GAF est capable de répondre à tous vos besoins de mise à disposition de véhicules avec OU SANS
+                  conducteurs.Ce service vous permet de bénéficier de tous les atouts de l’entreprise ou de vos
+                  besoins de camion haut de gamme supplémentaire.
+                </p>
               </div>
             </div>
           </div>
