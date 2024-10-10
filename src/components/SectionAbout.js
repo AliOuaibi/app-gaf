@@ -13,7 +13,7 @@ const SectionAbout = () => {
           <div className='custom-card-container'>
             <div className='custom-card'>
               <img
-                src='assets/img/about/porte-caisse.png'
+                src='assets/img/about/80.png'
                 alt='Transport porte-caisse mobile'
                 className='custom-responsive-image'
               />
@@ -31,7 +31,7 @@ const SectionAbout = () => {
           <div className='custom-card-container'>
             <div className='custom-card'>
               <img
-                src='assets/img/about/semi-remorque.png'
+                src='assets/img/formation/7.png'
                 alt='Transport tracteur semi-remorque'
                 className='custom-responsive-image'
               />
