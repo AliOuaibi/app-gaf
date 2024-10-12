@@ -14,7 +14,7 @@ const JoinGroup = () => {
       <Fragment>
         <Suspense fallback={<Preloader/>}>
           <NavbarOne/>
-          <Breadcrumb title={"REJOINDRE LE GROUPE"} banner={"banniere-join-group.png"} video/>
+          <Breadcrumb title={"REJOINDRE LE GROUPE"} banner={"banniere-join-group.png"}/>
           <JoinGroupContent />
           <FooterBottomOne />
         </Suspense>

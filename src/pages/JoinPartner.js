@@ -3,6 +3,7 @@ import Preloader from "../elements/Preloader";
 import TransportPartner from "../components/JoinPartner/TransportPartner";
 import TransportSection from "../components/JoinPartner/TransportSection";
 import FormJoinPartner from "../components/JoinPartner/FormJoinPartner";
+import Breadcrumb from "../components/Breadcrumb";
 const BannerOne = React.lazy(() => import("../components/BannerOne"));
 const FooterBottomOne = React.lazy(() =>
   import("../components/FooterBottomOne")
@@ -15,7 +16,7 @@ const JoinPartner = () => {
       <Fragment>
         <Suspense fallback={<Preloader />}>
           <NavbarOne />
-          <BannerOne title={'DEVENIR PARTENAIRE DE TRANSPORT'} subTitle={'VOUS ÊTES TRANSPORTEUR ?'}/>
+          <Breadcrumb title={"DEVENIR PARTENAIRE DE TRANSPORT"} banner={"5.png"}/>
           <TransportPartner />
           <TransportSection />
           <FormJoinPartner />
