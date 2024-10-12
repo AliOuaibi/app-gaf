@@ -1,10 +1,25 @@
-import React from "react";
-import "./GlobalStep.css"
+import React, { useState } from "react";
+import "./GlobalStep.css";
 
-const Step2 = ({nextStep, prevStep, handleChange, values}) => {
+const Step2 = ({ nextStep, prevStep, handleChange, values }) => {
+  const [errors, setErrors] = useState({});
+
+  const validate = () => {
+    let tempErrors = {};
+    if (!values.employees) tempErrors.employees = "Nombre d'employés requis";
+    if (!values.drivers) tempErrors.drivers = "Nombre de chauffeurs requis";
+    if (!values.manutention) tempErrors.manutention = "Personnel de manutention requis";
+    if (!values.licenceCopies) tempErrors.licenceCopies = "Nombre de copies de licence requis";
+
+    setErrors(tempErrors);
+    return Object.keys(tempErrors).length === 0;
+  };
+
   const continueStep = (e) => {
     e.preventDefault();
-    nextStep();
+    if (validate()) {
+      nextStep();
+    }
   };
 
   const previousStep = (e) => {
@@ -27,6 +42,7 @@ const Step2 = ({nextStep, prevStep, handleChange, values}) => {
             required
           />
         </div>
+        {errors.employees && <p className="error-message">{errors.employees}</p>}
 
         {/* Nombre de chauffeurs */}
         <div className="form-group">
@@ -38,6 +54,7 @@ const Step2 = ({nextStep, prevStep, handleChange, values}) => {
             required
           />
         </div>
+        {errors.drivers && <p className="error-message">{errors.drivers}</p>}
 
         {/* Personnel de manutention */}
         <div className="form-group">
@@ -49,6 +66,7 @@ const Step2 = ({nextStep, prevStep, handleChange, values}) => {
             required
           />
         </div>
+        {errors.manutention && <p className="error-message">{errors.manutention}</p>}
 
         {/* Nombre de copies de licence */}
         <div className="form-group">
@@ -60,14 +78,15 @@ const Step2 = ({nextStep, prevStep, handleChange, values}) => {
             required
           />
         </div>
+        {errors.licenceCopies && <p className="error-message">{errors.licenceCopies}</p>}
 
         <div className="form-buttons">
-          <button className='btn btn-base left' type='submit' onClick={previousStep}>
+          <button className="btn btn-base left" type="submit" onClick={previousStep}>
             {" "}
             PRÉCÉDENT
           </button>
 
-          <button className='btn btn-base right' type='submit' onClick={continueStep}>
+          <button className="btn btn-base right" type="submit" onClick={continueStep}>
             {" "}
             SUIVANT
           </button>

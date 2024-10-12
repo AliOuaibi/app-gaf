@@ -22,6 +22,10 @@
   font-size: 14px;
 }
 
+.error-message {
+  color: red !important;
+}
+
 /* Style des groupes de champs */
 .form-group {
   display: flex; /* Flexbox pour aligner l'icône et l'input */

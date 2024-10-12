@@ -28,13 +28,13 @@ const FormFlow = () => {
     manutention: "",
     licenceCopies: "",
     vleger: "",
-    vlegerNumber: "",
+    vlegerNumber: 0,
     poidsLourd: "",
-    poidsLourdNumber: "",
+    poidsLourdNumber: 0,
     spl: "",
-    splNumber: "",
+    splNumber: 0,
     porteCaisse: "",
-    porteCaisseNumber: "",
+    porteCaisseNumber: 0,
     experience: "",
     references: ""
   });
@@ -70,18 +70,18 @@ const FormFlow = () => {
 
   switch (currentStep) {
     case 1:
-      return <Step1 nextStep={nextStep} handleChange={handleChange} values={formData}/>;
+      return <Step1 nextStep={nextStep} handleChange={handleChange} values={formData} />;
     case 2:
-      return <Step2 nextStep={nextStep} prevStep={prevStep} handleChange={handleChange} values={formData}/>;
+      return <Step2 nextStep={nextStep} prevStep={prevStep} handleChange={handleChange} values={formData} />;
     case 3:
-      return <Step3 nextStep={nextStep} prevStep={prevStep} handleChange={handleChange} values={formData}/>;
+      return <Step3 nextStep={nextStep} prevStep={prevStep} handleChange={handleChange} values={formData} />;
     case 4:
       return <>
         <Toaster position='top-center' reverseOrder={false}/>
         <Recap prevStep={prevStep} values={formData} sendEmail={sendEmail}/>
       </>;
     default:
-      return <Step1 nextStep={nextStep} handleChange={handleChange} values={formData}/>;
+      return <Step1 nextStep={nextStep} handleChange={handleChange} values={formData} />;
   }
 };
 

@@ -1,11 +1,34 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaBuilding, FaCalendarAlt, FaBalanceScale, FaBarcode, FaChartLine, FaUser, FaPhone, FaEnvelope, FaGlobe, FaMapMarkerAlt } from "react-icons/fa";
 import "./GlobalStep.css"
 
 const Step1 = ({ nextStep, handleChange, values }) => {
+  const [errors, setErrors] = useState({});
+
+  const validate = () => {
+    let tempErrors = {};
+    if (!values.companyName) tempErrors.companyName = "Nom de l'entreprise requis";
+    if (!values.creationDate) tempErrors.creationDate = "Date de création requise";
+    if (!values.legalForm) tempErrors.legalForm = "Forme juridique requise";
+    if (!values.sirenCode) tempErrors.sirenCode = "Code SIREN requis";
+    if (!values.revenue) tempErrors.revenue = "Chiffre d'affaires requis";
+    if (!values.contactPerson) tempErrors.contactPerson = "Personne à contacter requise";
+    if (!values.phone) tempErrors.phone = "Numéro de téléphone requis";
+    if (!values.email) tempErrors.email = "Email requis";
+    if (!values.address) tempErrors.address = "Adresse requise";
+    if (!values.zipCode) tempErrors.zipCode = "Code postal requis";
+    if (!values.city) tempErrors.city = "Ville requise";
+    if (!values.country) tempErrors.country = "Pays requis";
+
+    setErrors(tempErrors);
+    return Object.keys(tempErrors).length === 0;
+  };
+
   const continueStep = (e) => {
     e.preventDefault();
-    nextStep();
+    if (validate()) {
+      nextStep();
+    }
   };
 
   return (
@@ -25,18 +48,20 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             required
           />
         </div>
+        {errors.companyName && <p className="error-message">{errors.companyName}</p>}
 
         {/* Date de création */}
         <div className="form-group">
           <FaCalendarAlt className="form-icon"/>
+          <label htmlFor="creationDate">Date de création *</label>
           <input
             type="date"
-            placeholder="Date de création *"
             value={values.creationDate}
             onChange={handleChange("creationDate")}
             required
           />
         </div>
+        {errors.creationDate && <p className="error-message">{errors.creationDate}</p>}
 
         {/* Forme juridique */}
         <div className="form-group">
@@ -49,6 +74,7 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             required
           />
         </div>
+        {errors.legalForm && <p className="error-message">{errors.legalForm}</p>}
 
         {/* Code SIREN */}
         <div className="form-group">
@@ -61,6 +87,7 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             required
           />
         </div>
+        {errors.sirenCode && <p className="error-message">{errors.sirenCode}</p>}
 
         {/* Dernier chiffre d'affaires */}
         <div className="form-group">
@@ -73,6 +100,7 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             required
           />
         </div>
+        {errors.revenue && <p className="error-message">{errors.revenue}</p>}
 
         {/* Personne à contacter */}
         <div className="form-group">
@@ -85,6 +113,7 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             required
           />
         </div>
+        {errors.contactPerson && <p className="error-message">{errors.contactPerson}</p>}
 
         {/* Téléphone */}
         <div className="form-group">
@@ -97,6 +126,7 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             required
           />
         </div>
+        {errors.phone && <p className="error-message">{errors.phone}</p>}
 
         {/* Email */}
         <div className="form-group">
@@ -109,6 +139,7 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             required
           />
         </div>
+        {errors.email && <p className="error-message">{errors.email}</p>}
 
         {/* Site Internet */}
         <div className="form-group">
@@ -132,6 +163,7 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             required
           />
         </div>
+        {errors.address && <p className="error-message">{errors.address}</p>}
 
         {/* Complément d'adresse */}
         <div className="form-group">
@@ -153,6 +185,7 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             required
           />
         </div>
+        {errors.zipCode && <p className="error-message">{errors.zipCode}</p>}
 
         {/* Ville */}
         <div className="form-group">
@@ -164,6 +197,7 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             required
           />
         </div>
+        {errors.city && <p className="error-message">{errors.city}</p>}
 
         {/* Pays */}
         <div className="form-group">
@@ -176,9 +210,9 @@ const Step1 = ({ nextStep, handleChange, values }) => {
             defaultValue="France"
           />
         </div>
+        {errors.country && <p className="error-message">{errors.country}</p>}
 
         <button className='btn btn-base' type='submit' onClick={continueStep}>
-          {" "}
           SUIVANT
         </button>
       </form>
