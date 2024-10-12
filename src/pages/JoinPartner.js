@@ -4,7 +4,6 @@ import TransportPartner from "../components/JoinPartner/TransportPartner";
 import TransportSection from "../components/JoinPartner/TransportSection";
 import FormJoinPartner from "../components/JoinPartner/FormJoinPartner";
 import Breadcrumb from "../components/Breadcrumb";
-const BannerOne = React.lazy(() => import("../components/BannerOne"));
 const FooterBottomOne = React.lazy(() =>
   import("../components/FooterBottomOne")
 );
