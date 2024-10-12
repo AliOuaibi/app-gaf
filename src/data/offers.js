@@ -55,7 +55,7 @@ export const offers = [{
   , contract: "CDI"
   , location: "ÎLE-DE-FRANCE"
   , bannerImage: "assets/img/join-group/chauffeur-spl.png"
-  , description: `TPS est une société spécialisée dans le transport de marchandises avec la mise à disposition de chauffeurs.
+  , description: `GAF est une société spécialisée dans le transport de marchandises avec la mise à disposition de chauffeurs.
     Depuis plus de 10 ans maintenant, nous accompagnons nos clients qui nous font confiance et pour qui nous
   mettons chaque jour tout en œuvre afin d’être leur accélérateur logistique privilégié.<br/><br/>
 <em>« L’humain au cœur de la réussite »</em><br/>
