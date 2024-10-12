@@ -47,7 +47,7 @@ const PartnerOne = ({imgPartner, text}) => {
   return (
     <>
       {/*partner-area start*/}
-      <div className='partner-area pd-top-90 pd-bottom-60'>
+      <div className='partner-area pd-top-90'>
         <div className='container'>
           {text
             &&
