@@ -1,35 +1,44 @@
 export const formations = [{
   id: 1
   , title: "OUVREZ VOTRE PROPRE ENTREPRISE DE TRANSPORT"
-  , hour: "175 heures (25 jours)"
+  , hour: "70 heures (10 jours)"
   , location: "RIS-ORANGIS (91)"
   , peopleValid: "Tout conducteur titulaire d’un permis C, C1, C1E ou CE en cours de validité"
   , startDate: "À la demande"
-  , price: "2 795€"
-  , bannerImage: "assets/img/formation/7.png"
+  , price: "2 500€"
+  , bannerImage: "assets/img/formation/formation1.jpeg"
   , detail: {
-    text: "Cette formation comprend les points suivants :"
+    text: null
     , list: [
-      "THEME 1 – Perfectionnement à la conduite rationnelle axée sur les règles de sécurité"
-      , "THEME 2 – Application des réglementations"
-      , "THEME 3 – Santé, sécurité routière et sécurité environnementale"
-      , "THEME 4 -Service, logistique"
+      "Comprendre le potentiel du marché du transport : Le secteur du transport de marchandises et de voyageurs offre " +
+      "des opportunités financières significatives. Cette formation vous permet d’analyser les défis et les " +
+      "opportunités pour maximiser vos chances de succès."
+      , "Maîtriser les aspects réglementaires et juridiques : Apprenez à respecter la législation en vigueur " +
+      "et à obtenir les licences et certifications nécessaires pour exercer en toute conformité."
+      , "TÉlaborer un business plan solide : Vous serez accompagné dans la définition d’une stratégie claire " +
+      "et réaliste, garantissant la viabilité et la rentabilité de votre entreprise."
+      , "Gérer efficacement votre entreprise de transport : De la gestion de la flotte aux ressources humaines " +
+      "en passant par les coûts opérationnels, vous développerez des compétences essentielles " +
+      "pour assurer la pérennité de votre activité."
+      , "Accéder aux financements et aides disponibles : Explorez les différentes sources de financement " +
+      "et aides existantes pour démarrer votre activité avec une assise financière solide."
     ]
   } , objectif: {
-    text: "Cette formation comprend les points suivants :"
+    text: null
     , list: [
-      "THEME 1 – Perfectionnement à la conduite rationnelle axée sur les règles de sécurité"
-      , "THEME 2 – Application des réglementations"
-      , "THEME 3 – Santé, sécurité routière et sécurité environnementale"
-      , "THEME 4 -Service, logistique"
+      "Étude de marché et positionnement : Apprenez à identifier vos futurs clients et les opportunités sur le marché."
+      , "Aspects réglementaires et juridiques : Maîtrisez les capacités professionnelles, licences de transport et les obligations légales."
+      , "Élaboration d’un business plan solide : Développez un plan complet incluant les aspects financiers, marketing et opérationnels."
+      , "Gestion opérationnelle : Approfondissez la gestion des véhicules, des équipes, ainsi que des coûts (carburant, maintenance, etc.)."
+      , "Techniques de négociation commerciale : Apprenez à obtenir vos premiers contrats, à fidéliser vos clients et à participer efficacement aux appels d’offres."
     ]
   } , evaluation: {
-    text: "Cette formation comprend les points suivants :"
+    text: null
     , list: [
-      "THEME 1 – Perfectionnement à la conduite rationnelle axée sur les règles de sécurité"
-      , "THEME 2 – Application des réglementations"
-      , "THEME 3 – Santé, sécurité routière et sécurité environnementale"
-      , "THEME 4 -Service, logistique"
+      "Quiz interactifs et vidéos : Renforcez vos connaissances avec des quiz après chaque module et des vidéos pédagogiques."
+      , "Mises en situation : Exercez-vous à travers des simulations d'appels d'offres pour des entreprises comme Amazon, et participez à des études de cas réels."
+      , "Suivi personnalisé et accompagnement : Vous bénéficierez d’un suivi individuel tout au long de la formation et après, pour vous aider à réussir dans vos démarches."
+      , "Certificat de réussite : À l’issue de la formation, un certificat vous sera délivré attestant de vos compétences en création et gestion d’une entreprise de transport."
     ]
   }
 }, {
@@ -40,7 +49,7 @@ export const formations = [{
   , peopleValid: "Tout conducteur titulaire d’un permis C, C1, C1E ou CE en cours de validité"
   , startDate: "À la demande"
   , price: "2 795€"
-  , bannerImage: "assets/img/formation/commissionnaire.webp"
+  , bannerImage: "assets/img/formation/formation2.jpeg"
   , detail: {
     text: null
     , list: [
@@ -65,35 +74,35 @@ export const formations = [{
 }, {
   id: 3
   , title: "TITRE PRO : EXPLOITANT DE TRANSPORT ROUTIER"
-  , hour: "175 heures (25 jours)"
+  , hour: "6 mois en apprentissage"
   , location: "RIS-ORANGIS (91)"
   , peopleValid: "Tout conducteur titulaire d’un permis C, C1, C1E ou CE en cours de validité"
   , startDate: "À la demande"
-  , price: "2 795€"
+  , price: "0€ (Touche un salaire en te formant)"
   , bannerImage: "assets/img/formation/commissionnaire.webp"
   , detail: {
-    text: "Cette formation comprend les points suivants :"
+    text: null
     , list: [
-      "THEME 1 – Perfectionnement à la conduite rationnelle axée sur les règles de sécurité"
-      , "THEME 2 – Application des réglementations"
-      , "THEME 3 – Santé, sécurité routière et sécurité environnementale"
-      , "THEME 4 -Service, logistique"
+      "Planification et optimisation des tournées : Techniques pour organiser les trajets, minimiser les coûts, et maximiser l'efficacité."
+      , "Gestion de la flotte : Suivi de la maintenance des véhicules, gestion des stocks, et optimisation des ressources."
+      , "Réglementation du transport routier : Licences, sécurité, conformité et documentation."
+      , "Gestion des imprévus : Solutions pour répondre aux urgences et aux changements imprévus."
+      , "Relation client : Communication avec les clients et gestion des contrats."
     ]
   } , objectif: {
     text: "Cette formation comprend les points suivants :"
     , list: [
-      "THEME 1 – Perfectionnement à la conduite rationnelle axée sur les règles de sécurité"
-      , "THEME 2 – Application des réglementations"
-      , "THEME 3 – Santé, sécurité routière et sécurité environnementale"
-      , "THEME 4 -Service, logistique"
+      "Maîtriser la gestion des opérations de transport : Planification, organisation, et optimisation des tournées pour un service de transport efficace."
+      , "Connaître la réglementation : Respecter les normes légales et les réglementations en vigueur pour garantir la conformité."
+      , "Gérer les équipes et les ressources : Superviser les chauffeurs et les véhicules pour optimiser la performance de l’entreprise."
+      , "Assurer la relation client : Maintenir et développer des relations commerciales solides avec les clients."
     ]
   } , evaluation: {
     text: "Cette formation comprend les points suivants :"
     , list: [
-      "THEME 1 – Perfectionnement à la conduite rationnelle axée sur les règles de sécurité"
-      , "THEME 2 – Application des réglementations"
-      , "THEME 3 – Santé, sécurité routière et sécurité environnementale"
-      , "THEME 4 -Service, logistique"
+      "Mise en situation professionnelle : Exercices pratiques pour simuler des situations réelles d'exploitation."
+      , "Suivi personnalisé : Accompagnement par un tuteur tout au long des 6 mois."
+      , "Certificat professionnel : Attestation officielle à la fin de la formation pour valider vos compétences."
     ]
   }
 }, {
@@ -104,7 +113,7 @@ export const formations = [{
   , peopleValid: "Tout conducteur titulaire d’un permis C, C1, C1E ou CE en cours de validité"
   , startDate: "À la demande"
   , price: "2 050€"
-  , bannerImage: "assets/img/formation/fimo001.webp"
+  , bannerImage: "assets/img/formation/fimo.jpeg"
   , detail: {
     text: "Cette formation comprend les points suivants :"
     , list: [
@@ -140,7 +149,7 @@ export const formations = [{
     "FIMO marchandises ou attestation équivalent FIMO"
   , startDate: "À la demande"
   , price: "617€"
-  , bannerImage: "assets/img/formation/Sans-titre-2.webp"
+  , bannerImage: "assets/img/formation/fco.jpeg"
   , detail: {
     text: null
     , list: [
@@ -207,7 +216,7 @@ export const formations = [{
   , peopleValid: "Public occupant un poste à responsabilité avec une équipe à manager"
   , startDate: "À la demande"
   , price: "À partir de 1 000 € pour un groupe maximum de 12 personnes"
-  , bannerImage: "assets/img/formation/elea001.webp"
+  , bannerImage: "assets/img/formation/manager.jpeg"
   , detail: {
     text: "Inévitable dans la vie d’une équipe, les différends sont aussi l’occasion de repartir du bon pied.\n" +
       "A condition de s’y être préparé. Ce programme est fait pour déminer le terrain, rapprocher les points de vue… et hausser le ton quand c’est nécessaire."
@@ -235,7 +244,7 @@ export const formations = [{
   , peopleValid: "Tout public"
   , startDate: "À la demande"
   , price: "210€"
-  , bannerImage: "assets/img/formation/gp001.webp"
+  , bannerImage: "assets/img/formation/formation8.jpeg"
   , detail: {
     text: "Notre vie professionnelle est faite de gestes et de postures qui reviennent plusieurs fois " +
       "par jour, qui sollicitent plus ou moins l’organisme, qui impactent plus ou moins durablement la santé.\n" +
@@ -251,18 +260,14 @@ export const formations = [{
 }, {
   id: 9
   , title: "PERFECTIONNEMENT BUREAUTIQUE"
-  , hour: "12 jours – (84 h)"
+  , hour: "2 jours"
   , location: "RIS-ORANGIS (91)"
   , peopleValid: "Toute personne, salarié ou non."
   , startDate: "À la demande"
   , price: "3 325€"
   , bannerImage: "assets/img/formation/off001-300x127.webp"
   , detail: {
-    text: "Acquérir les notions de base à l’utilisation de Microsoft EXCEL et se perfectionner\n" +
-      "Acquérir les notions de base à l’utilisation de Microsoft OUTLOOK et se perfectionner\n" +
-      "Acquérir les notions de base à l’utilisation de Microsoft POWER POINT et se perfectionner\n" +
-      "Acquérir les notions de base à l’utilisation de Microsoft WORD et se perfectionner\n" +
-      "Obtenir les certifications niveau « Opérationnel » ou « Avancé »"
+    text: "SOYEZ UN PRO, FAITES VOUS FORMEZ SUR LES TMS DES PLUS GRANDS TRANSPORTEUR"
     , list: null
   } , objectif: {
     text: "Acquérir les notions de base à l’utilisation de Microsoft EXCEL et se perfectionner\n" +
@@ -279,35 +284,33 @@ export const formations = [{
 }, {
   id: 10
   , title: "LES FONDAMENTAUX DE LA COMPTABILITÉ (CRÉATION OFFERTE)"
-  , hour: "175 heures (25 jours)"
+  , hour: "14 heures (2 jours)"
   , location: "RIS-ORANGIS (91)"
   , peopleValid: "Tout conducteur titulaire d’un permis C, C1, C1E ou CE en cours de validité"
   , startDate: "À la demande"
-  , price: "2 795€"
-  , bannerImage: "assets/img/formation/commissionnaire.webp"
+  , price: "500€ OU offre spéciale : Formation offerte pour les créateurs d’entreprise"
+  , bannerImage: "assets/img/formation/comptable.jpg"
   , detail: {
     text: "Cette formation comprend les points suivants :"
     , list: [
-      "THEME 1 – Perfectionnement à la conduite rationnelle axée sur les règles de sécurité"
-      , "THEME 2 – Application des réglementations"
-      , "THEME 3 – Santé, sécurité routière et sécurité environnementale"
-      , "THEME 4 -Service, logistique"
+      "Introduction à la comptabilité : Notions clés et principes de base."
+      , "Le bilan et le compte de résultat : Apprendre à lire et interpréter ces documents."
+      , "Gestion des flux financiers : Enregistrements comptables, suivi des recettes et dépenses."
+      , "Les obligations légales : TVA, impôts et déclarations fiscales."
     ]
   } , objectif: {
     text: "Cette formation comprend les points suivants :"
     , list: [
-      "THEME 1 – Perfectionnement à la conduite rationnelle axée sur les règles de sécurité"
-      , "THEME 2 – Application des réglementations"
-      , "THEME 3 – Santé, sécurité routière et sécurité environnementale"
-      , "THEME 4 -Service, logistique"
+      "Comprendre les bases de la comptabilité : Appréhender les principes comptables essentiels pour gérer efficacement une entreprise."
+      , "Maîtriser les outils comptables : Savoir utiliser les documents comptables de base (bilan, compte de résultat, etc.)."
+      , "Tenir une comptabilité simple et régulière : Organiser et suivre les opérations financières de l’entreprise."
+      , "Anticiper les obligations fiscales : Appréhender les principales échéances fiscales et les déclarations obligatoires."
     ]
   } , evaluation: {
-    text: "Cette formation comprend les points suivants :"
+    text: null
     , list: [
-      "THEME 1 – Perfectionnement à la conduite rationnelle axée sur les règles de sécurité"
-      , "THEME 2 – Application des réglementations"
-      , "THEME 3 – Santé, sécurité routière et sécurité environnementale"
-      , "THEME 4 -Service, logistique"
+      "Exercices pratiques : Mise en application avec des cas concrets de gestion comptable."
+      , "Attestation de fin de formation : Délivrée à l'issue des 2 jours pour valider la formation."
     ]
   }
 }]
