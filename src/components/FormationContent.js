@@ -46,7 +46,7 @@ const FormationContent = () => {
                   <div className='col-lg-4' key={`formation-card-${id}`}>
                     <div className='single-service-wrap'>
                       <div className='thumb'>
-                        <img src={bannerImage} alt='GAF'/>
+                        <img src={bannerImage} alt='GAF' width={200} height={150}/>
                         <div className='icon'>
                           <FaInfoCircle color="#fff" fontSize={35}/>
                         </div>
