@@ -9,6 +9,8 @@ import Contact from "./pages/Contact";
 import RouteScrollToTop from "./elements/RouteScrollToTop";
 import JoinPartner from "./pages/JoinPartner";
 import JoinGroup from "./pages/JoinGroup";
+import TermsAndConditions from "./pages/TermsAndConditions";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
 
 function App() {
   useEffect(() => {
@@ -28,6 +30,8 @@ function App() {
         <Route exact path='/devenir-sous-traitant' element={<JoinPartner />} />
         <Route exact path='/devenir-chaffeur' element={<JoinGroup />} />
         <Route exact path='/contact' element={<Contact />} />
+        <Route exact path='/termes-et-conditions' element={<TermsAndConditions />} />
+        <Route exact path='/politique-et-confidialite' element={<PrivacyPolicy />} />
       </Routes>
       <ScrollToTop smooth color='#243040' />
     </BrowserRouter>

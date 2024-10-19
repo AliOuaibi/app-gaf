@@ -17,10 +17,10 @@ const FooterBottomOne = () => {
             <div className='col-lg-6 text-lg-end text-center'>
               <ul>
                 <li>
-                  <a href='/'>Termes et Conditions</a>
+                  <a href='/termes-et-conditions'>Termes et Conditions</a>
                 </li>
                 <li>
-                  <a href='/'>Politique et Confidentialité</a>
+                  <a href='/politique-et-confidialite'>Politique et Confidentialité</a>
                 </li>
               </ul>
             </div>

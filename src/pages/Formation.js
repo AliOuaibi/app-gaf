@@ -17,7 +17,7 @@ const Formation = () => {
       <Fragment>
         <Suspense fallback={<Preloader />}>
           <NavbarOne />
-          <Breadcrumb title={"FORMATION"} banner={"centre-formation.jpg"} video/>
+          <Breadcrumb title={"FORMATION"} banner={"salle-de-formation.png"} video/>
           <PartnerOne imgPartner={imgPartnerFormation}/>
           <FormationContent />
           <FormationContentPartner/>

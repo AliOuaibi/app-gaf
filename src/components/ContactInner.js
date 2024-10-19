@@ -59,8 +59,18 @@ const ContactInner = () => {
       return;
     }
 
+    const formData = new FormData(form.current);
+
+    const templateParams = {
+      user_name: formData.get("user_name"),
+      user_email: formData.get("user_email"),
+      user_phone: formData.get("user_phone"),
+      subject: `Contact concernant le sujet: ${formData.get("subject")}`,
+      message: formData.get("message"),
+    };
+
     emailjs
-      .sendForm(serviceId, templateContactId, form.current, publicKey)
+      .send(serviceId, templateContactId, templateParams, publicKey)
       .then(
         (result) => {
           if (result.text === "OK") {
