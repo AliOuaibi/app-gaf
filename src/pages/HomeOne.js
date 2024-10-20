@@ -1,4 +1,5 @@
 import React, {Fragment, Suspense, useEffect} from "react";
+import {Helmet} from "react-helmet";
 import { useCookies } from "react-cookie";
 import Preloader from "../elements/Preloader";
 import NavbarOne from "../components/NavbarOne";
@@ -35,6 +36,10 @@ const HomeOne = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Groupe GAF - Transport et Logistique</title>
+        <meta name="description" content="Groupe GAF, spécialiste du transport et logistique, offrant des solutions de fret adaptées à vos besoins. Contactez-nous pour plus d'informations." />
+      </Helmet>
       <Fragment>
         <Suspense fallback={<Preloader />}>
           <NavbarOne />
