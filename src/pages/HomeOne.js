@@ -29,7 +29,7 @@ const HomeOne = () => {
         window.dataLayer.push(arguments);
       }
       gtag('js', new Date());
-      gtag('config', 'UA-XXXXXXXX-X');  // Remplace par ton ID Google Analytics
+      gtag('config', 'G-F75BQRMDKC');  // Remplace par ton ID Google Analytics
     }
   }, [cookies]);
 
