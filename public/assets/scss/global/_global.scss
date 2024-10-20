@@ -465,41 +465,6 @@ ul {
   padding-left: 15px;
 }
 
-.post-password-form input {
-  display: block;
-  border: 1px solid #e2e2e2;
-  height: 50px;
-  border-radius: 3px;
-  padding: 0 20px;
-}
-
-.post-password-form label {
-  font-weight: 600;
-  color: #333;
-}
-
-.post-password-form input[type="submit"] {
-  width: 100px;
-  height: 50px;
-  background-color: var(--main-color);
-  color: #fff;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  border: none;
-  cursor: pointer;
-  transition: 0.3s ease-in;
-}
-
-.post-password-form input[type="submit"]:hover {
-  background-color: #121a2f;
-}
-
-.footer-widget .table td,
-.footer-widget .table th {
-  padding: 0.5rem !important;
-}
-
 @media all and (min-width: 1200px) {
   .no-lg-gutters > .col,
   .no-lg-gutters > [class*="col-"] {
