@@ -1,0 +1,31 @@
+.cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    width: 300px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    font-size: 14px;
+}
+
+.cookie-banner button {
+    background-color: #4CAF50; /* Couleur verte pour accepter */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cookie-banner button.reject {
+    background-color: #f44336; /* Couleur rouge pour refuser */
+}
+
+.cookie-banner button:hover {
+    opacity: 0.8;
+}
