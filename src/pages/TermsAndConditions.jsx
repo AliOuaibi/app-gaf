@@ -71,7 +71,7 @@ const TermsAndConditions = () => {
             <p>
               Nous respectons la confidentialité des informations personnelles que vous nous fournissez. Pour plus
               d’informations sur la collecte, le traitement et la protection de vos données personnelles, veuillez
-              consulter notre <a href="#">Politique de Confidentialité</a>.
+              consulter notre <a href="/politique-et-confidialite">Politique de Confidentialité</a>.
             </p>
           </section>
 
