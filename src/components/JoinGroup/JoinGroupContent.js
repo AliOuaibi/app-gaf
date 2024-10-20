@@ -25,8 +25,8 @@ const JoinGroupContent = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-7'>
               <div className='section-title text-center'>
-                <h4 className='subtitle'>OFRRES D'EMPLOIE</h4>
                 <h2 className='title'>ON RECRUTE</h2>
+                <h4 className='subtitle'>OFRRES D'EMPLOIE</h4>
                 <p>
                   Chez GROUPE À FRET, l’humain est placé au cœur de la réussite,
                   avec une grande importance accordée aux échanges, à la qualité de vie au travail et à

@@ -34,7 +34,7 @@
     .container-form-join-group {
       flex-direction: column;
       align-items: center;
-      max-height: none; /* Retirer la contrainte de hauteur maximale */
+      max-height: none;
       overflow: visible;
 
       .block-description-offer, .contact-area-form-join-group {

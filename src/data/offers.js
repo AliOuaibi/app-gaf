@@ -4,7 +4,7 @@ export const offers = [{
   , detail: "Vous conduisez des poids lourds et caisses mobiles, et vous vous assurez de la qualité de vos transports."
   , contract: "CDI"
   , location: "ÎLE-DE-FRANCE"
-  , bannerImage: "assets/img/join-group/chauffeur-spl.png"
+  , bannerImage: "assets/img/join-group/chauffeur-spl.webp"
   , description: `GAF est une société spécialisée dans le transport de marchandises avec la mise 
   à disposition de chauffeurs. Depuis plus de 10 ans maintenant, nous accompagnons nos clients qui nous font 
   confiance et pour qui nous mettons chaque jour tout en œuvre afin d’être leur 
@@ -49,7 +49,7 @@ export const offers = [{
   Horaires : Travail du Lundi au Vendredi
 `
 }, {
-  id: 1
+  id: 2
   , title: "Chauffeur Super Lourd"
   , detail: "Vous conduisez des poids lourds, et vous vous assurez de la qualité de vos transports."
   , contract: "CDI"

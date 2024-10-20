@@ -3,7 +3,6 @@ import React from "react";
 const FooterBottomOne = () => {
   return (
     <>
-      {/* footer-bottom area start */}
       <div className='footer-bottom-area'>
         <div className='container'>
           <div className='row'>
@@ -27,7 +26,6 @@ const FooterBottomOne = () => {
           </div>
         </div>
       </div>
-      {/* footer-bottom area end */}
     </>
   );
 };

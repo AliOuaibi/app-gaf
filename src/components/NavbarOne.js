@@ -15,9 +15,7 @@ const NavbarOne = () => {
         setScrolled(false);
       }
     };
-
     window.addEventListener("scroll", handleScroll);
-
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -27,7 +25,6 @@ const NavbarOne = () => {
     <header className="my-navbar">
       <nav className={`navbar-wrapper ${scrolled ? "navbar-scrolled" : ""}`}>
         <div className="container">
-          {/* Logo */}
           <div className="logo">
             <Link to="/">
               <img src="assets/img/logo-2.png" alt="GAF" />
