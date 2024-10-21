@@ -18,7 +18,7 @@ const Breadcrumb = ({title, banner}) => {
                     <h2 className='page-title'>{title}</h2>
                     <ul className='page-list'>
                       <li>
-                        <Link to='/' style={{color: "blue"}}>ACCEUIL</Link>
+                        <Link to='/' style={{color: "#4CAF50"}}>ACCEUIL</Link>
                       </li>
                       {" "}
                       /

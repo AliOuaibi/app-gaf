@@ -20,7 +20,7 @@ const Contact = () => {
           <NavbarOne />
 
           {/* Breadcrumb */}
-          <Breadcrumb title={"CONTACT"} banner={'6.png'}/>
+          <Breadcrumb title={"CONTACT"} banner={'6.jpeg'}/>
 
           {/* Breadcrumb */}
           <ContactInner />

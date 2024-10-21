@@ -51,13 +51,13 @@ const CounterOne = () => {
                     {({ isVisible }) =>
                       isVisible && (
                         <span className='counter' style={{color: "#fff"}}>
-                          <CountUp delay={0} start={0} end={1000000} />
+                          <CountUp delay={0} start={0} end={1000000} />€
                         </span>
                       )
                     }
                   </TrackVisibility>
                 </h2>
-                <h5>D'EUROS DE CA</h5>
+                <h5>DE CHIFFRE D'AFFAIRES</h5>
               </div>
             </div>
             <div className='col-lg-3 col-md-6'>

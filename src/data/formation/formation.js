@@ -239,11 +239,11 @@ export const formations = [{
 }, {
   id: 8
   , title: "SST ET GESTES ET POSTURES"
-  , hour: "1 jours (7h)"
+  , hour: "14 heures (2 jours)"
   , location: "RIS-ORANGIS (91)"
   , peopleValid: "Tout public"
   , startDate: "À la demande"
-  , price: "210€"
+  , price: "500€"
   , bannerImage: "assets/img/formation/formation8.jpeg"
   , detail: {
     text: "Notre vie professionnelle est faite de gestes et de postures qui reviennent plusieurs fois " +
@@ -260,11 +260,11 @@ export const formations = [{
 }, {
   id: 9
   , title: "PERFECTIONNEMENT BUREAUTIQUE"
-  , hour: "2 jours"
+  , hour: "14 heures (2 jours)"
   , location: "RIS-ORANGIS (91)"
   , peopleValid: "Toute personne, salarié ou non."
   , startDate: "À la demande"
-  , price: "3 325€"
+  , price: "500€"
   , bannerImage: "assets/img/formation/off001-300x127.webp"
   , detail: {
     text: "SOYEZ UN PRO, FAITES VOUS FORMEZ SUR LES TMS DES PLUS GRANDS TRANSPORTEUR"
