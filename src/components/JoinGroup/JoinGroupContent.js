@@ -25,10 +25,10 @@ const JoinGroupContent = () => {
           <div className='row justify-content-center'>
             <div className='col-lg-7'>
               <div className='section-title text-center'>
-                <h2 className='title'>ON RECRUTE</h2>
-                <h4 className='subtitle'>OFRRES D'EMPLOIE</h4>
+                <h2 className='title'>ON RECRUTE !</h2>
+                <h4 className='subtitle'>OFRRES D'EMPLOI</h4>
                 <p>
-                  Chez GROUPE À FRET, l’humain est placé au cœur de la réussite,
+                  Chez GAF, l’humain est placé au cœur de la réussite,
                   avec une grande importance accordée aux échanges, à la qualité de vie au travail et à
                   la fidélisation de nos collaborateurs. Vous souhaitez intégrer une équipe dynamique, soudée
                   et investie dans le service apporté aux clients ? Consultez nos offres et rejoignez-nous.
