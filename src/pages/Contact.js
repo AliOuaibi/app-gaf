@@ -16,16 +16,9 @@ const Contact = () => {
       </Helmet>
       <Fragment>
         <Suspense fallback={<Preloader />}>
-          {/* Navbar One */}
           <NavbarOne />
-
-          {/* Breadcrumb */}
           <Breadcrumb title={"CONTACT"} banner={'6.webp'}/>
-
-          {/* Breadcrumb */}
           <ContactInner />
-
-          {/* Footer Bottom One */}
           <FooterBottomOne />
         </Suspense>
       </Fragment>
