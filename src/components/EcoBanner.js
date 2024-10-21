@@ -24,11 +24,10 @@ const EcoBanner = () => {
 
           <div className="block-eco">
             <img src="assets/img/portfolio/leaf.svg" alt="picto-eco"/>
-            <h1>RENOUVELLEMENT DU PARC</h1>
+            <h1>FORMATION DES CONDUCTEURS</h1>
             <p>
-              Pour garantir la mutation progressive de notre parc,
-              nous le renouvelons régulièrement en intégrant exclusivement
-              des véhicules roulant au gaz.
+              La transition écologique passe aussi par la pédagogie. Nous sensibilisons nos conducteurs
+              aux questions de responsabilité sociale et environnementale et les formons à l'éco-conduite.
             </p>
           </div>
 
@@ -36,11 +35,11 @@ const EcoBanner = () => {
 
           <div className="block-eco">
             <img src="assets/img/portfolio/c02.svg" alt="picto-eco"/>
-            <h1>RENOUVELLEMENT DU PARC</h1>
+            <h1>MOINS DE CO²</h1>
             <p>
-              Pour garantir la mutation progressive de notre parc,
-              nous le renouvelons régulièrement en intégrant exclusivement
-              des véhicules roulant au gaz.
+              Réduction des kilomètres à vide, carburants alternatifs durables tels
+              que l'Oléo 100 ou le biogaz, pneus réduisant la consommation de carburants...
+              nos choix limitent l'émission de CO2.
             </p>
           </div>
           <div style={{borderBottom: "5px solid #fff", margin: "20px auto"}}></div>
