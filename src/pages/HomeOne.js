@@ -37,7 +37,7 @@ const HomeOne = () => {
   return (
     <>
       <Helmet>
-        <title>Groupe GAF - Transport et Logistique</title>
+        <title>Groupe GAF - Transport</title>
         <meta name="description" content="Groupe GAF, spécialiste du transport et logistique, offrant des solutions de fret adaptées à vos besoins. Contactez-nous pour plus d'informations." />
       </Helmet>
       <Fragment>
