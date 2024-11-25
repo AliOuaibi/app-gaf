@@ -9,7 +9,7 @@ const FooterBottomOne = () => {
             <div className='col-lg-6 text-lg-start text-center'>
               <div className='copyright-area'>
                 <p>
-                  © Copyright 2024 <b><a href='/'>GAF</a></b>, site propulsé par l'angence <b>PYWEB</b>.
+                  © Copyright 2024 <b><a href='/'>GAF</a></b>, site propulsé par l'angence <b><a href='https://py-web.com/'>PYWEB</a></b>.
                 </p>
               </div>
             </div>

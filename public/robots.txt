@@ -1,0 +1,17 @@
+# Application des règles pour tous les moteurs de recherche
+User-agent: *
+
+# Autoriser tout sauf des pages spécifiques
+Allow: /
+
+# Bloquer les zones sensibles
+Disallow: /devenir-chauffeur/test/
+Disallow: /formation/private/
+Disallow: /admin/
+
+# Empêcher l'indexation de fichiers spécifiques
+Disallow: /404.html
+Disallow: /merci.html
+
+# Spécifier le lien vers le sitemap
+Sitemap: https://www.groupegaf.fr/sitemap.xml

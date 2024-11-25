@@ -11,6 +11,7 @@ import JoinPartner from "./pages/JoinPartner";
 import JoinGroup from "./pages/JoinGroup";
 import TermsAndConditions from "./pages/TermsAndConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import NotFound from "./pages/NotFound";
 
 function App() {
   useEffect(() => {
@@ -32,6 +33,7 @@ function App() {
         <Route exact path='/contact' element={<Contact />} />
         <Route exact path='/termes-et-conditions' element={<TermsAndConditions />} />
         <Route exact path='/politique-et-confidialite' element={<PrivacyPolicy />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <ScrollToTop smooth color='#243040' />
     </BrowserRouter>
